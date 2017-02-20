@@ -1,0 +1,1906 @@
+
+<html><head>
+
+
+
+    <title>RedTape X Beta - Smarter Music Marketing</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="http://www.redtapex.com/images/favicon/favicon.png">
+
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet" type="text/css">
+
+    
+    
+    <link rel="stylesheet prefetch" href="http://www.redtapex.com/css/main.css">
+<link rel="stylesheet prefetch" href="http://redtapedesign.com/reportsV2/physicalattributes.css">
+<link rel="stylesheet prefetch" href="http://www.redtapex.com/css/cover.css">
+
+
+
+
+        <style>
+      * {
+  transition: all .5s ease-out;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+}
+
+@media only screen and (max-width: 991px) {
+  .col-sm-1, .col-md-1, .col-lg-1, .col-sm-2, .col-md-2, .col-lg-2, .col-sm-3, .col-md-3, .col-lg-3, .col-sm-4, .col-md-4, .col-lg-4, .col-sm-5, .col-md-5, .col-lg-5, .col-sm-6, .col-md-6, .col-lg-6, .col-sm-7, .col-md-7, .col-lg-7, .col-sm-8, .col-md-8, .col-lg-8, .col-sm-9, .col-md-9, .col-lg-9, .col-sm-10, .col-md-10, .col-lg-10, .col-sm-11, .col-md-11, .col-lg-11, .col-sm-12, .col-md-12, .col-lg-12 {
+    width: 100%;
+  }
+  .pull-right {
+    float: none !important;
+    padding-left: 8px;
+  }
+  h1 {
+    font-size: 26px;
+    text-align:center;
+    line-height:1.3em;
+  }
+  .one h1,
+  .vidone h1 {
+    font-size: 34px;
+    text-align:center;
+  }
+  p {text-align:center;}
+  
+  .legroom, .legroom-80, .legroom-120, .legroom-160, .legroom-200, .legroom-320 {
+      margin-bottom: 40px !important;
+    margin-top:40px !important;
+  }
+    
+    .vid-caption {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+  
+}
+
+.vid-caption {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.vvidone:hover video {
+  -webkit-filter: blur(10px);
+}
+
+.no-legroom {
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.legroom {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.legroom-80 {
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.legroom-120 {
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+
+.legroom-160 {
+  margin-bottom: 160px;
+  margin-top: 160px;
+}
+
+.legroom-200 {
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+.legroom-320 {
+  margin-bottom: 160px;
+  margin-top: 320px;
+}
+
+.stats {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.stats h4 {
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: #EBECED;
+  font-family: "Product Sans", "karla", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #9494A2;
+  -webkit-font-smoothing: antialiased;
+}
+
+.pad {
+  padding: 30px;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.lead {
+  margin-top: 20px;
+  color: #8F8F94;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #646EF8;
+}
+
+a:hover {
+  color: #4444DD;
+  cursor: pointer;
+}
+
+.videothumblist a:hover,
+.wp-thumblist a:hover {
+  text-decoration: none;
+}
+
+ul h5,
+ol h5 {
+  margin-bottom: 1px;
+}
+
+h1,
+h2,
+h3,
+h3,
+h5 {
+  font-family: "Product Sans"
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #363942;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul li {
+  padding-left: 0px;
+}
+
+ol {
+  margin-left: 0px;
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  ppadding-top: 18px;
+  ppadding-bottom: 18px;
+  padding-left: 15px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+ol li:first-child {
+  padding-top: 30px;
+}
+
+ol li:last-child,
+ul li:last-child {
+  border-bottom: 0px solid #F4F4F4;
+}
+
+ul.videothumblist li {
+  padding-top: 15px;
+  padding-bottom: 27px;
+}
+
+ul.wp-thumblist li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 100px;
+}
+
+li:hover {
+  border-top: 1px solid #F4F4F4;
+  border-bottom: 1px solid #F4F4F4;
+}
+
+h1.big-number {
+  font-size: 98px
+}
+
+h2 {
+  margin-top: 20px;
+  color: #363942;
+  font-size: 26px;
+  line-height: 1.2em;
+}
+
+h4 {
+  margin-top: 0px;
+  color: #363942;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+h5 {
+  margin-top: 0px;
+  color: #363942;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+small {
+  color: #D8D8DC;
+  font-size: 90%;
+}
+
+.time {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.small-title {
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #646EF8;
+}
+
+.sub {
+  margin-bottom: 15px;
+  display: block;
+  color: #646EF8;
+  letter-spacing: 0.1em
+}
+
+.head {
+  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.main {
+  margin-top:
+}
+
+.darbicon-fb {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/facebookc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-yt {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/youtubec.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-sc {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/soundcloudc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-tw {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/twitterc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-ig {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/instagramc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-lfm {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/lastfmc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-pd {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/pandorac.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-beats {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/beatsc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-rdio {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/rdioc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.darbicon-sp {
+  padding-left: 50px;
+  background: url(/web/20170101003241im_/http://www.redtapedesign.com/x/images/spotifyc.png) no-repeat 0 0;
+  background-size: 40px;
+  background-position: 0px 14px;
+}
+
+.kpi {
+  border-bottom: 1px solid #F4F4F4;
+  padding-bottom: 25px
+}
+
+.kpi-setup {
+  border: 0px solid #F4F4F4;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.kpi-setup span.glyphicon,
+.glyphicon-big {
+  color: #ccc;
+  font-size: 50px;
+}
+
+.kpi-setup h4 {
+  color: #ccc;
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.alert {
+  padding: 25px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.alert-expired {
+  background-color: #F1F2F3;
+  border: 1px solid #DDDDDD;
+  border-top: 5px solid #DDDDDD;
+  color: rgba(0, 0, 0, 0.47);
+}
+
+.alert-warning {
+  background-color: #FFF4A8;
+  border-color: #ECE29C;
+  color: rgba(0, 0, 0, 0.47);
+  border-top: 5px solid #ECE29C;
+}
+
+.alert-success {
+  background-color: #00dab7;
+  border-color: #03C7A8;
+  color: rgba(0, 0, 0, 0.58);
+  border-top: 5px solid #03C7A8;
+}
+
+.alert-info {
+  background-color: #fff;
+  border-color: #ddd;
+  color: rgba(0, 0, 0, 0.58);
+  border-top: 5px solid #646EF8;
+}
+
+.alert-danger {
+  background-color: #F1387F;
+  border-color: #F1387F;
+  color: rgba(0, 0, 0, 0.58);
+  border-top: 5px solid #D61D71;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  padding-top: 22px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.089) 0px 0px 3px 0px;
+  border-top: 5px solid #fff;
+  opacity: 1;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px 0px;
+  opacity: 1;
+}
+
+.card.pin {
+  padding-top: 0px;
+}
+
+.card.empty {
+  min-height: 256px;
+  background: #E7E8E8;
+  border-top: 0px solid #E7E8E8;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 3px inset;
+}
+
+.card.error {
+  border-top: 5px solid #F1387F;
+}
+
+.card.error:hover {
+  border-top: 5px solid #D61D71;
+}
+
+.card.highlite {
+  border-top: 5px solid #00dab7;
+}
+
+.card.highlite:hover {
+  border-top: 5px solid #fff;
+}
+
+.card.highlite .glyphicon-ok {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 10px;
+  background: #00dab7;
+  padding: 8px;
+  border-radius: 30px
+}
+
+.card.insp {
+  border-top: 5px solid #646EF8;
+}
+
+.card.insp:hover {
+  border-top: 5px solid #fff;
+}
+
+.card.purp {
+  border-top: 5px solid #934BDE;
+}
+
+.card.purp:hover {
+  border-top: 5px solid #A25FEB;
+}
+
+.card.dark {
+  border-top: 5px solid #151231;
+}
+
+.card.dark:hover {
+  border-top: 5px solid #2A2647;
+}
+
+.card.dark .coolbar {
+  border-top: 1px solid #383FA7;
+  background: #1B1A2F;
+}
+
+.card.dark:hover .coolbar {
+  border-top: 1px solid #646EF8;
+  background: #1B1A2F;
+}
+
+.card.expired {
+  background: #F1F2F3;
+  box-shadow: rgba(0, 0, 0, 0.089) 0px 0px 0px 0px;
+  border: 1px solid #DDDDDD;
+  border-top: 5px solid #DDDDDD;
+}
+
+.card.expired:hover {
+  border-top: 5px solid #fff;
+  background: #fff;
+  border: 1px solid #DDDDDD;
+  border-top: 5px solid #DDDDDD;
+}
+
+.card.expired .coolbar {
+  border-top: 1px solid #DDDDDD;
+  background: #F1F2F3;
+}
+
+.card.empty h4,
+.card.expired h4,
+.card.expired p,
+.alert-expired .glyphicon-ok,
+.alert-expired h4 {
+  color: #CCCCCC;
+}
+
+.card.expired .glyphicon-ok,
+.alert-expired .glyphicon-ok {
+  margin-right: 8px;
+}
+
+.card.expired:hover .coolbar {
+  border-top: 1px solid #F4F4F4;
+  background: #fff;
+}
+
+.card.expired .mapwrap2,
+.card.expired .mapwrap3 {
+  /* display:block; */
+  
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: -22px;
+  /* margin-bottom: 15px;*/
+  
+  background-color: #EBECED;
+  background: linear-gradient(to bottom, #F1F2F3, #F1F2F3);
+}
+
+.card:hover li small,
+.card:hover .stats small {
+  color: #9494A2;
+}
+
+.mapwrap {
+  /* display:block; */
+  
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: 15px;
+  background-color: #EBECED;
+}
+
+.mapwrap2 {
+  /* display:block; */
+  
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: -22px;
+  /* margin-bottom: 15px;*/
+  
+  background-color: #EBECED;
+  background: linear-gradient(to bottom, #AB5DE9, #4573FF);
+}
+
+.mapwrap3 {
+  /* display:block; */
+  
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: -22px;
+  /* margin-bottom: 15px;*/
+  
+  background-color: #999;
+  background: linear-gradient(to bottom, #2A2744, #282169);
+}
+
+.mapwrap2 {
+  background-image: url("/web/20170101003241im_/http://s8.postimg.org/5y7jviwd1/crowd_purp2.jpg");
+  background-size: cover;
+}
+
+.mapwrap2 {
+  background-image: url("/web/20170101003241im_/http://s21.postimg.org/y3d0jqtjr/crowd_dark.jpg");
+  background-size: cover;
+}
+
+.mmapwrap2 {
+  background-image: url("/web/20170101003241im_/http://s18.postimg.org/57sozv5y1/crowd_green.jpg");
+  background-size: cover;
+}
+
+.mapwrap2 h1,
+.mapwrap3 h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #00dab7;
+  color: white;
+  /*color:#3AEE98;*/
+  
+  padding-top: 30px;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.mapwrap2 .sub,
+.mapwrap3 .sub {
+  color: white;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  opacity: 0.5;
+}
+
+.artistpic {
+  float: left;
+  margin-right: 20px;
+  border-radius: 35px;
+  height: 70px;
+  width: 70px;
+  margin-top: 18px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px 0px;
+}
+
+.fanbox {
+  display: ;
+  background: white;
+  min-height: 200px;
+  margin-top: 20px;
+}
+
+.fanpic {
+  float: left;
+  width: 25%;
+}
+
+.fanpic:hover {
+  -webkit-filter: brightness(0.7);
+}
+
+.fanpic2 {
+  float: left;
+  border-radius: 25px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px 0px;
+}
+
+.videothumb {
+  width: 65px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.wp-thumb {
+  width: 65px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.wp-thumb-full {
+  width: auto;
+}
+
+.coolbar {
+  border-radius: 0px 0px 2px 2px;
+  width: auto;
+  display: block;
+  background: #fff;
+  margin-left: -25px;
+  margin-right: -25px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #646EF8;
+  text-decoration: none;
+  border-top: 1px solid #F4F4F4;
+  margin-top: ;
+  font-size: 18px;
+  transition: all .5s ease-out;
+}
+
+.card:hover .coolbar {
+  background: #F7F8FA;
+  text-decoration: none;
+}
+
+.card:hover .coolbar:hover {
+  background-position: -100px;
+  background: #855de9;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg1NWRlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZjdhZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #855de9 0%, #4f7aff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #855de9), color-stop(100%, #4f7aff));
+  background: -webkit-linear-gradient(top, #855de9 0%, #4f7aff 100%);
+  background: -o-linear-gradient(top, #855de9 0%, #4f7aff 100%);
+  background: -ms-linear-gradient(top, #855de9 0%, #4f7aff 100%);
+  background: linear-gradient(to bottom, #855de9 0%, #4f7aff 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#855de9', endColorstr='#4f7aff', GradientType=0);
+  color: #fff;
+  text-decoration: none;
+  border-top: 1px solid #646EF8;
+}
+
+.shareit {
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(to bottom, #AB5DE9, #4573FF);
+  transition: background-position 0.5s;
+  background-size: auto 200%;
+  background-position: 0 60%;
+}
+
+.shareit:hover {
+  color: #fff;
+  background: linear-gradient(to bottom, #AB5DE9, #4573FF);
+  background-size: auto 200%;
+  background-position: 0 30%;
+  transition: background-position 0.5s;
+}
+
+.btn-primary {
+  color: #fff;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(to bottom, #AB5DE9, #4573FF);
+  transition: background-position 0.5s;
+  background-size: auto 200%;
+  background-position: 0 60%;
+  border: 1px solid #4573FF;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: linear-gradient(to bottom, #AB5DE9, #4573FF);
+  background-size: auto 200%;
+  background-position: 0 30%;
+  transition: background-position 0.5s;
+  border: 1px solid #4573FF;
+}
+
+.times {
+  padding-bottom: 20px;
+}
+
+.time_one {
+  border: 2px solid #7BDC4E;
+  border-radius: 50%;
+  background: transparent;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.time_one p {
+  color: #7BDC4E;
+  padding: 0px;
+}
+
+.time_two {
+  background-color: #646EF8;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.time_two h4 {
+  color: #7BDC4E;
+  margin-bottom: 0px;
+  margin-top: 30%;
+  padding: 0px;
+}
+
+.time_two p {
+  color: #101779;
+  padding: 0px;
+}
+
+.time_three {
+  border: 1px solid #3ADB99;
+  border-radius: 50%;
+  background: transparent;
+  width: 60px;
+  height: 60px;
+}
+
+.time_one h3 {
+  color: #646EF8;
+  margin-top: 30%;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.time_three h6 {
+  color: #3ADB99;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.time_three p {
+  padding: 0px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.modal-dialog {
+  z-index: 1041;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  background-clip: padding-box;
+  outline: 0;
+}
+
+.modal-body {
+  position: relative;
+  padding: 50px;
+}
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 0px solid #e5e5e5;
+  min-height: 16.42857143px;
+}
+
+.modal-header.modal-header-image {
+  background-image: url("/web/20170101003241im_/http://s21.postimg.org/y3d0jqtjr/crowd_dark.jpg");
+  color: white;
+  background-size: cover;
+  min-height: 150px;
+  padding: 50px;
+}
+
+.modal-header.modal-header-image .close {
+  color: white;
+  font-family: "helvetica";
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.modal-header.modal-header-image h2 {
+  color: white;
+  margin-top: 0px
+}
+
+.modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 0px solid #e5e5e5;
+}
+
+.modal-dialog {
+  width: 720px;
+  margin: 30px auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .modal-dialog {
+    width: auto;
+    margin: 30px auto;
+  }
+}
+
+.footer.purp a {
+    color: #6F6F6F;
+}
+
+.footer.purp {
+    color: #313131;
+}
+::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+
+
+
+
+
+
+img.app-icon {
+    width: 244px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+}
+
+
+
+    </style>
+
+    <script>
+  window.console = window.console || function(t) {};
+</script>
+
+    
+    
+  </head>
+<body>
+
+
+
+
+  
+  <div class="nav navbar navbar-default bs-docs-nav past-carousel" id="docs top" role="navigation" style="background:transparent; border:none;">
+    <div class="container">
+      <div class="navbar-header">
+
+        <a class="navbar-brand past-carousel" href="#">
+          <img style="width:180px;" src="img/redtapex-logo-onlight.png">
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container-fluid no-padding">
+    <div class="col-md-12 no-padding vidone">
+
+      <div id="vidImage">
+        <video autoplay="" loop="" id="vidbg">
+          <source src="img/vidbg2.mp4" type="video/mp4">
+            <img src="img/fallback.png" title="Your browser does not support the <video> tag">
+        </video>
+      </div>
+      <div class="carousel-caption2 vid-caption">
+        <div class="col-md-12 center-block">
+          <h1 style="color:white;">Smarter Music Marketing</h1>
+          <p class="lead">A full stack technology solution for the new music industry.
+</p>
+
+          
+          <a href="/web/20170101003241/https://docs.google.com/forms/d/1whFYy_6dj0LVQ5N82U--wCIzv1KSG6MojeLMznz4_0E/viewform" class="btn btn-primary" type="button">Join Beta</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="" style="background-color: #f7f7f7;">
+    <div class="container">
+      <div class="row mobile-height">
+
+        <div class="col-md-3 col-md-4 col-md-offset-2 text-left legroom-120 toppy text-center">
+  <a href="/web/20170101003241/http://www.juicin.com/"><img class="app-icon text-center" src="/web/20170101003241im_/http://redtapedesign.com/redtapex/juicin-app-icon.png"></a>
+          <h1>Get your music heard on Juicin</h1>
+          <p class="lead">Fans can discover and stream your music along with millions of songs for free. Coming soon to the appstore. 
+</p><a href="#">Learn more</a>
+        </div>
+        
+       
+        
+
+        
+        <div style="padding-top:30px; min-height:200px;" class="col-md-4 col-md-offset-2 nno-legroom text-center hidden-xs">
+<a href="/web/20170101003241/http://www.juicin.com/"><img class="img-responsive center-block" src="img/phone-06.png"></a>
+          
+          
+        
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="" style="background: linear-gradient(to bottom, #AB5DE9, #4573FF);
+    background-size: auto 200%;
+    background-position: 0 60%;">
+    
+    
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-5 col-md-offset-1 text-center no-legroom hidden-xs">
+          <a href="/web/20170101003241/http://melody.ai/"><img class="img-responsive" src="img/phone-melo.png"></a>
+
+
+        </div>
+        <div style=";" class="col-md-3 col-md-offset-1 text-right text-center legroom-160">
+  <a href="/web/20170101003241/http://melody.ai/"><img class="app-icon text-center" src="img/melody-app-icon.png"></a>
+          <h1 style="
+    color: white;
+">Understand your listeners with Melody</h1>
+          <p style="color: rgba(255, 255, 255, 0.58);" class="lead">Artificial intelligence powered marketing opportunities for the artist and their team. Coming soon to the app store.</p><a href="#">Learn more</a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="" style="background-color: #f7f7f7;">
+    <div class="container">
+      <div class="row mobile-height">
+
+        <div class="col-md-3 col-md-4 col-md-offset-2 text-left legroom-120 toppy text-center">
+  <a href="/web/20170101003241/http://blast.redtapex.com/"><img class="app-icon text-center" src="img/blast-app-icon.png"></a>
+          <h1>Keep your fans connected with Blast</h1>
+          <p class="lead">Retain fans with your own direct to fan channel. Easily send fans Text Messages, email, and online promotions. Coming soon to the app store. 
+</p><a href="#">Learn more</a>
+        </div>
+        
+       
+        
+
+        
+        <div style="padding-top:30px; min-height:200px;" class="col-md-4 col-md-offset-2 legroom-80 text-center hidden-xs">
+<a href="#"><img class="img-responsive center-block" src="/img/phone-blast.png"></a>
+          
+          
+        
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- row -->
+
+
+
+<div class="" style="
+    background: linear-gradient(to bottom, #AB5DE9, #4573FF);
+    background-size: auto 200%;
+    background-position: 0 60%;
+    display: none;
+    ">
+    
+    
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-9 text-right no-legroom">
+          <img class="img-responsive" src="img/plug-1215a7.png">
+
+
+        </div>
+        <div class="col-md-3 col-md-offset-0 text-right legroom-80">
+          <h1>Full stack music marketing solution.</h1>
+          <p style="color:white;" class="lead">Smarter means more open and integrated with the tools and platforms you already use. Keep track of your content and success on all your platforms in one place.</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- container-fluid -->
+
+
+
+
+  <div class="container-fluid no-padding purp" style="padding-top:40px;margin-bottom:0px;background-color:#181823;">
+    <div class="center-block text-center col-md-8 legroom-80">
+      <h1 style="color:white;">Join The Beta For Free</h1>
+      <p>Join our Beta to help shape the future of the music industry.</p>
+      <div class="col-md-4 center-block">
+        <a href="/web/20170101003241/https://docs.google.com/forms/d/1whFYy_6dj0LVQ5N82U--wCIzv1KSG6MojeLMznz4_0E/viewform" class="btn btn-primary" type="button">Sign Up</a>
+      </div>
+      <!-- /.col-md-10 -->
+    </div>
+    <!-- col-md-8 -->
+  </div>
+
+
+  <div style="background-color:#181823;" class="container-fluid footer purp">
+    
+    <immg class="img-responsive" src="img/Screen_Shot_2016_03_30_at_9_54_29_AM.png">
+    <div class="col-md-8 center-block">
+      <div class="pull-left col-xs-12 col-md-6 text-left footer-left">
+        <a href="/web/20170101003241/http://www.redtapex.com/terms">terms</a> | <a href="#">privacy</a> | <a href="#">Reports</a>
+      </div>
+      <div class="pull-right col-xs-12 col-md-6 text-right footer-right"><a href="/web/20170101003241/https://www.facebook.com/RedTapeXApp">Facebook</a> | <a href="/web/20170101003241/https://twitter.com/redtapex">Twitter</a>
+      </div>
+    </div>
+  </immg></div>
+
+  <!-- MODALS -->
+
+  <div class="modal fade text-left" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title" id="myModalLabel">Send email to 21k 'NYC Fans' bucket.</h4>
+        </div>
+        <div class="modal-body">
+          <p>Buckets are segments of fans that you can create based off things like locations like "NYC" or behavior like 'Kiss my ass on a daily'.
+            <br><a href="" class="underline">Create a new bucket.</a></p>
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn wpw-fp-follow-button">Preview</button>
+          <button type="button" class="btn wpw-fp-follow-button" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade text-centertext-left" id="previewModal" tabindex="-1" role="dialog" aria-labelledby="previewModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">EMAIL PREVIEW</h4>
+            </a>
+          </div>
+          <h4>Hey NYC Fans!</h4>
+          <p>Check out my new video <a href="/web/20170101003241/https://www.youtube.com/watch?v=o1sQBg_4p6M" class="underline">youtube.com/video</a></p>
+          <iframe width="560" height="315" src="/web/20170101003241if_/https://www.youtube.com/embed/o1sQBg_4p6M" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn wpw-fp-follow-button">Preview</button>
+          <button type="button" class="btn wpw-fp-follow-button" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="/web/20170101003241js_/https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/web/20170101003241js_/https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="/web/20170101003241js_/http://redtapedesign.com/reportsV2/abilities.js"></script>
+
+
+  <div id="ghq-guru-1-0-10-8">
+    <div data-gurureactid=".0">
+      <noscript data-gurureactid=".0.0"></noscript>
+      <div id="ghq-mainmenu" data-gurureactid=".0.1">
+        <div data-gurureactid=".0.1.0"></div>
+      </div>
+      <div id="ghq-facts" data-gurureactid=".0.2">
+        <div data-gurureactid=".0.2.0"></div>
+      </div>
+      <div id="ghq-notifications" data-gurureactid=".0.3">
+        <div data-gurureactid=".0.3.0"></div>
+      </div>
+      <noscript data-gurureactid=".0.4"></noscript>
+      <noscript data-gurureactid=".0.5"></noscript>
+      <noscript data-gurureactid=".0.6"></noscript>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" id="ghq-guru-svg">
+      <symbol id="ghq-svg-at" viewBox="0 0 24 24">
+        <path d="M17.42,15C17.79,14.09 18,13.07 18,12C18,8.13 15.31,5 12,5C8.69,5 6,8.13 6,12C6,15.87 8.69,19 12,19C13.54,19 15,19 16,18.22V20.55C15,21 13.46,21 12,21C7.58,21 4,16.97 4,12C4,7.03 7.58,3 12,3C16.42,3 20,7.03 20,12C20,13.85 19.5,15.57 18.65,17H14V15.5C13.36,16.43 12.5,17 11.5,17C9.57,17 8,14.76 8,12C8,9.24 9.57,7 11.5,7C12.5,7 13.36,7.57 14,8.5V8H16V15H17.42M12,9C10.9,9 10,10.34 10,12C10,13.66 10.9,15 12,15C13.1,15 14,13.66 14,12C14,10.34 13.1,9 12,9Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-boards" viewBox="0 0 24 24">
+        <path d="M16,5V11H21V5M10,11H15V5H10M16,18H21V12H16M10,18H15V12H10M4,18H9V12H4M4,11H9V5H4V11Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-cards" viewBox="0 0 24 24">
+        <path d="M12,16L19.36,10.27L21,9L12,2L3,9L4.63,10.27M12,18.54L4.62,12.81L3,14.07L12,21.07L21,14.07L19.37,12.8L12,18.54Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-check-circle-outline" viewBox="0 0 24 24">
+        <path d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-circle-fill" viewBox="0 0 32 32">
+        <circle cx="16" cy="16" r="16"></circle>
+      </symbol>
+      <symbol id="ghq-svg-circle" viewBox="0 0 32 32">
+        <g id="right">
+          <path d="M16,32C7.1,32,0,24.9,0,16S7.1,0,16,0s16,7.1,16,16S24.9,32,16,32z M16,6C10.7,6,6,10.7,6,16c0,5.3,4.7,10,10,10   s10-4.7,10-10S21.3,6,16,6z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-clipboard1" viewBox="0 0 32 32">
+        <g>
+          <path d="M28,31.5H4c-0.8,0-1.5-0.7-1.5-1.5V4c0-0.8,0.7-1.5,1.5-1.5h5.5v3h-4v23h21v-23h-4v-3H28c0.8,0,1.5,0.7,1.5,1.5v26   C29.5,30.8,28.8,31.5,28,31.5z"></path>
+        </g>
+        <g>
+          <path d="M22,10.5H10c-0.8,0-1.5-0.7-1.5-1.5V2c0-0.8,0.7-1.5,1.5-1.5h12c0.8,0,1.5,0.7,1.5,1.5v7C23.5,9.8,22.8,10.5,22,10.5z    M11.5,7.5h9v-4h-9V7.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-cog1" viewBox="0 0 32 32">
+        <g>
+          <path d="M20,31.3h-8c-0.8,0-1.5-0.7-1.5-1.5v-3.4L9.7,26l-3,1.7c-0.7,0.4-1.6,0.2-2-0.6l-4-7c-0.2-0.3-0.2-0.8-0.1-1.1   c0.1-0.4,0.4-0.7,0.7-0.9l2.9-1.7v-0.9l-2.9-1.7c-0.3-0.2-0.6-0.5-0.7-0.9c-0.1-0.4-0.1-0.8,0.1-1.1l4-7c0.4-0.7,1.3-1,2-0.6l3,1.7   l0.8-0.4V2.2c0-0.8,0.7-1.5,1.5-1.5h8c0.8,0,1.5,0.7,1.5,1.5v3.4L22.3,6l3-1.7c0.7-0.4,1.6-0.2,2,0.6l4,7c0.2,0.3,0.2,0.8,0.1,1.1   c-0.1,0.4-0.4,0.7-0.7,0.9l-2.9,1.7v0.9l2.9,1.7c0.3,0.2,0.6,0.5,0.7,0.9c0.1,0.4,0.1,0.8-0.1,1.1l-4,7c-0.4,0.7-1.3,1-2,0.6   l-3-1.7l-0.6,0.3c-0.7,0.4-1.6,0.1-2-0.6c-0.4-0.7-0.1-1.6,0.6-2l1.3-0.7c0.5-0.2,1-0.2,1.5,0l2.4,1.4L28,20l-2.4-1.4   c-0.5-0.3-0.8-0.8-0.8-1.3v-2.6c0-0.5,0.3-1,0.8-1.3L28,12l-2.5-4.4L23,9c-0.4,0.3-1,0.3-1.4,0l-2.3-1.2c-0.5-0.3-0.8-0.8-0.8-1.3   V3.7h-5v2.8c0,0.6-0.3,1.1-0.8,1.3L10.4,9C9.9,9.3,9.4,9.3,9,9L6.6,7.6L4,12l2.4,1.4c0.5,0.3,0.8,0.8,0.8,1.3v2.6   c0,0.5-0.3,1-0.8,1.3L4,20l2.5,4.4L9,23c0.4-0.3,1-0.3,1.4,0l2.3,1.2c0.5,0.3,0.8,0.8,0.8,1.3v2.8H20c0.8,0,1.5,0.7,1.5,1.5   S20.8,31.3,20,31.3z"></path>
+        </g>
+        <g>
+          <path d="M16,21.5c-3,0-5.5-2.5-5.5-5.5c0-3,2.5-5.5,5.5-5.5c3,0,5.5,2.5,5.5,5.5C21.5,19,19,21.5,16,21.5z M16,13.5   c-1.4,0-2.5,1.1-2.5,2.5c0,1.4,1.1,2.5,2.5,2.5c1.4,0,2.5-1.1,2.5-2.5C18.5,14.6,17.4,13.5,16,13.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-comment" viewBox="0 0 24 24">
+        <path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-comments" viewBox="0 0 24 24">
+        <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"></path>
+      </symbol>
+      <symbol id="ghq-svg-copy2" viewBox="0 0 32 32">
+        <g>
+          <path d="M21,31.5H3c-0.8,0-1.5-0.7-1.5-1.5V10c0-0.8,0.7-1.5,1.5-1.5h18c0.8,0,1.5,0.7,1.5,1.5v20C22.5,30.8,21.8,31.5,21,31.5z    M4.5,28.5h15v-17h-15V28.5z"></path>
+        </g>
+        <g>
+          <path d="M29,23.5h-5v-3h3.5v-17h-15V7h-3V2c0-0.8,0.7-1.5,1.5-1.5h18c0.8,0,1.5,0.7,1.5,1.5v20C30.5,22.8,29.8,23.5,29,23.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-delete" viewBox="0 0 24 24">
+        <path d="M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-dropdown2-fill" viewBox="-584 447 10 5">
+        <polygon points="-584,447 -574,447 -579,452 "></polygon>
+      </symbol>
+      <symbol id="ghq-svg-exclamation1" viewBox="0 0 32 32">
+        <g>
+          <path d="M18.5,20.5c0,0-0.1,0-0.1,0c-0.8-0.1-1.4-0.8-1.4-1.6l1.4-15.4h-4.7L15,18.9c0.1,0.8-0.5,1.6-1.4,1.6   c-0.8,0.1-1.6-0.5-1.6-1.4l-1.5-17c0-0.4,0.1-0.8,0.4-1.1c0.3-0.3,0.7-0.5,1.1-0.5h8c0.4,0,0.8,0.2,1.1,0.5   c0.3,0.3,0.4,0.7,0.4,1.1l-1.5,17C19.9,19.9,19.3,20.5,18.5,20.5z"></path>
+        </g>
+        <g>
+          <path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M18.4,20.1"></path>
+        </g>
+        <g>
+          <path d="M16,31.4c-2.5,0-4.5-2-4.5-4.5s2-4.5,4.5-4.5s4.5,2,4.5,4.5S18.5,31.4,16,31.4z M16,25.4c-0.8,0-1.5,0.7-1.5,1.5   s0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5S16.8,25.4,16,25.4z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-exclamation2" viewBox="0 0 32 32">
+        <g id="circle_1_">
+          <path d="M16.6,31.6c-0.2,0-0.4,0-0.6,0c-0.8,0-1.4-0.7-1.4-1.5V27c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5v1.6   c2.2-0.3,4.1-1.3,5-1.9l0.1-0.1c3.6-2.3,5.9-6.3,5.9-10.6c0-6.9-5.6-12.5-12.5-12.5S3.5,9.1,3.5,16c0,4.9,2.7,9.2,7,11.2   c0.8,0.4,1.1,1.2,0.7,2c-0.4,0.8-1.2,1.1-2,0.7c-5.3-2.5-8.8-8-8.8-14c0-8.5,7-15.5,15.5-15.5s15.5,7,15.5,15.5   c0,5.3-2.7,10.3-7.3,13.2L24,29.3C22.8,30,20,31.6,16.6,31.6z"></path>
+        </g>
+        <g>
+          <path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M18.7,18.4"></path>
+        </g>
+        <g>
+          <path d="M16,23.5c-0.8,0-1.5-0.7-1.5-1.5V8c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5v14C17.5,22.8,16.8,23.5,16,23.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-eye2" viewBox="0 0 32 32">
+        <g>
+          <path d="M16,20.5c-2.5,0-4.5-2-4.5-4.5s2-4.5,4.5-4.5s4.5,2,4.5,4.5S18.5,20.5,16,20.5z M16,14.5c-0.8,0-1.5,0.7-1.5,1.5   s0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5S16.8,14.5,16,14.5z"></path>
+        </g>
+        <g>
+          <path d="M2,15c-0.3,0-0.7-0.1-0.9-0.3c-0.7-0.5-0.8-1.5-0.3-2.1C1.1,12.2,7.7,4,16,4c8.3,0,14.9,8.2,15.2,8.6   c0.5,0.7,0.4,1.6-0.2,2.1c-0.7,0.5-1.6,0.4-2.1-0.2C28.8,14.4,22.9,7,16,7C9.1,7,3.2,14.4,3.2,14.4C2.9,14.8,2.4,15,2,15z"></path>
+        </g>
+        <g>
+          <path d="M16,28c-8.3,0-14.9-8.2-15.2-8.6c-0.5-0.7-0.4-1.6,0.2-2.1c0.6-0.5,1.6-0.4,2.1,0.2C3.2,17.6,9.1,25,16,25   c6.9,0,12.8-7.4,12.8-7.4c0.5-0.7,1.5-0.8,2.1-0.3c0.7,0.5,0.8,1.5,0.3,2.1C30.9,19.8,24.3,28,16,28z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-file-card" viewBox="0 0 24 24">
+        <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   16,1 21,5 21,23 3,23 3,1 12,1 12,7 18,7  "></polyline>
+      </symbol>
+      <symbol id="ghq-svg-guru" viewBox="0 0 56 56">
+        <g>
+          <path d="M48,36c-0.7,0-2.9,0.1-5.5,0.7c0,0,0,0,0,0c-0.8-4.1-4.4-8.7-8.8-11c-0.7-0.4-1.6-0.1-2,0.6   c-0.4,0.7-0.1,1.6,0.6,2c3.5,1.9,6.6,5.7,7.2,9c0,0.1,0.1,0.3,0.1,0.4c-1.6,0.7-3.3,1.7-4.7,3.1c-1,1.1-1.5,2.6-1.4,4.2   c0.1,1.3,0.7,2.4,1.5,3.1c0.9,0.8,2.3,1.1,3.6,0.8c1.6-0.4,3-1.6,3.8-3.3c0.7-1.8,0.8-3.8,0.6-5.9c2.4-0.7,4.4-0.7,5-0.7   c3.5,0,4,1.9,4,3.9c0,3.9-8.5,9.5-24,9.5c-10.1,0.1-18-2.1-21.9-5.9C4.7,45.1,4,43.6,4,42.1c0-0.3,0.1-3,4-3   c4.1,0,9.8,2.8,11.8,7.3c0.3,0.8,1.2,1.1,2,0.7c0.8-0.3,1.1-1.2,0.7-2C20,39.5,13.1,36.1,8,36.1c-5.5,0-7,3.9-7,6   c0,2.3,1,4.5,3,6.5c4.4,4.4,12.8,6.8,23.6,6.8c0.1,0,0.3,0,0.4,0c16.9,0,27-6.4,27-12.5C55,36.7,50.1,36,48,36z M39.6,44.4   c-0.5,1.2-1.3,1.5-1.7,1.6c-0.4,0.1-0.8,0-1-0.2c-0.1-0.1-0.3-0.4-0.4-1c-0.1-0.7,0.2-1.5,0.5-1.9c0.9-0.9,1.9-1.6,3-2.1   C40.1,42.1,40,43.4,39.6,44.4z"></path>
+          <path d="M22.5,22c0.6,0.6,1.5,0.6,2.1,0c0.6-0.6,0.6-1.5,0-2.1c-1.5-1.5-1.9-3.5-1.9-4.8c0-3.6,2.1-6.1,5.2-6.1   c3,0,5,2.4,5,6c0,1.5-0.3,3.5-1.7,4.8c-1.9,1.9-4.3,3-6.8,4.1c-2.7,1.2-9,4.5-9,10.2c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5   c0-3.2,3.7-5.9,7.2-7.4c2.7-1.1,5.5-2.4,7.7-4.7c2.1-2,2.6-4.9,2.6-7c0-5.3-3.3-9-8-9c-4.7,0-8.2,3.9-8.2,9.1   C19.8,17.8,20.7,20.2,22.5,22z"></path>
+          <path d="M28,4.5c0.8,0,1.5-0.7,1.5-1.5V2c0-0.8-0.7-1.5-1.5-1.5c-0.8,0-1.5,0.7-1.5,1.5v1C26.5,3.8,27.2,4.5,28,4.5   z"></path>
+          <path d="M36,7.5c0.4,0,0.8-0.1,1.1-0.4l0.7-0.7c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0l-0.7,0.7   c-0.6,0.6-0.6,1.5,0,2.1C35.2,7.4,35.6,7.5,36,7.5z"></path>
+          <path d="M40,14.5h1c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5h-1c-0.8,0-1.5,0.7-1.5,1.5S39.2,14.5,40,14.5z"></path>
+          <path d="M18.9,7.1c0.3,0.3,0.7,0.4,1.1,0.4s0.8-0.1,1.1-0.4c0.6-0.6,0.6-1.5,0-2.1l-0.7-0.7c-0.6-0.6-1.5-0.6-2.1,0   c-0.6,0.6-0.6,1.5,0,2.1L18.9,7.1z"></path>
+          <path d="M15,14.5h1c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5h-1c-0.8,0-1.5,0.7-1.5,1.5S14.2,14.5,15,14.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-heart-fill" viewBox="0 0 32 32">
+        <path d="M22,2.1c-2.2,0-4.3,0.8-6,2.3c-1.7-1.5-3.8-2.3-6-2.3c-5,0-9,4-9,9c0,2.5,1,4.9,2.8,6.5L16,30.2l12.1-12.5  C30,16,31,13.6,31,11.1C31,6.1,27,2.1,22,2.1z"></path>
+      </symbol>
+      <symbol id="ghq-svg-heart" viewBox="0 0 32 32">
+        <g>
+          <path d="M16,30.2L3.8,17.6C2,16,1,13.6,1,11.1c0-5,4-9,9-9c2.2,0,4.3,0.8,6,2.3c1.7-1.5,3.8-2.3,6-2.3c5,0,9,4,9,9   c0,2.5-1,4.9-2.9,6.6L16,30.2z M10,5.1c-3.3,0-6,2.7-6,6c0,1.7,0.7,3.2,1.9,4.4L16,25.8l10-10.3c1.3-1.2,2-2.7,2-4.5   c0-3.3-2.7-6-6-6c-1.9,0-3.6,0.9-4.8,2.4L16,9l-1.2-1.5C13.6,6,11.9,5.1,10,5.1z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-launch" viewBox="0 0 24 24">
+        <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-link" viewBox="0 0 20 20">
+        <g stroke="none" stroke-width="1">
+          <path d="M9.24647784,6.29920309 C9.7334866,4.40313315 11.4780605,3 13.5555556,3 C16.0101544,3 18,4.95875422 18,7.375 C18,9.79124578 16.0101544,11.75 13.5555556,11.75 C13.3998221,11.75 13.2459594,11.7421153 13.0943571,11.7267294 L13.5041763,9.12428319 L13.5041763,9.12428319 C13.5212436,9.12475999 13.5383711,9.125 13.5555556,9.125 C14.5373951,9.125 15.3333333,8.34149831 15.3333333,7.375 C15.3333333,6.40850169 14.5373951,5.625 13.5555556,5.625 C12.6055345,5.625 11.829561,6.35854257 11.7802647,7.2816329 L11.7689103,7.35525057 L11.7706706,7.35598755 L11.6626387,8.04427012 L11.1941057,11.0820386 L11.1941057,11.0820386 C11.1915915,11.0804834 11.189079,11.0789258 11.1865682,11.0773658 L10.8014865,13.5307617 L10.7958463,13.5198283 C10.376302,15.5069013 8.58750685,17 6.44444444,17 C3.98984556,17 2,15.0412458 2,12.625 C2,10.2087542 3.98984556,8.25 6.44444444,8.25 C6.60720905,8.25 6.76793012,8.25861269 6.926163,8.27540035 L6.51656937,10.876414 C6.49264632,10.8754743 6.46860165,10.875 6.44444444,10.875 C5.46260489,10.875 4.66666667,11.6585017 4.66666667,12.625 C4.66666667,13.5914983 5.46260489,14.375 6.44444444,14.375 C7.426284,14.375 8.22222222,13.5914983 8.22222222,12.625 C8.22222222,12.6234659 8.22222022,12.6219323 8.22221621,12.6203991 L8.80591411,9.01560538 L9.12992927,6.96970196 C9.14721282,6.78448653 9.17622417,6.60261275 9.2162258,6.42480658 L9.23676215,6.2951355 L9.24647784,6.29920309 Z" id="Oval-3"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-lock" viewBox="0 0 32 32">
+        <g>
+          <path d="M27,31.5H5c-0.8,0-1.5-0.7-1.5-1.5V14c0-0.8,0.7-1.5,1.5-1.5h5c0.8,0,1.5,0.7,1.5,1.5s-0.7,1.5-1.5,1.5H6.5v13h19v-13H15   c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5h12c0.8,0,1.5,0.7,1.5,1.5v16C28.5,30.8,27.8,31.5,27,31.5z"></path>
+        </g>
+        <g>
+          <path d="M10,15.5c-0.8,0-1.5-0.7-1.5-1.5V8c0-4.1,3.4-7.5,7.5-7.5s7.5,3.4,7.5,7.5v2c0,0.8-0.7,1.5-1.5,1.5s-1.5-0.7-1.5-1.5V8   c0-2.5-2-4.5-4.5-4.5s-4.5,2-4.5,4.5v6C11.5,14.8,10.8,15.5,10,15.5z"></path>
+        </g>
+        <path d="M18.5,19.8c0-1.4-1.1-2.5-2.5-2.5s-2.5,1.1-2.5,2.5c0,0.8,0.4,1.5,1,2v4.1h3v-4.1C18.1,21.3,18.5,20.6,18.5,19.8z"></path>
+      </symbol>
+      <symbol id="ghq-svg-minus1" viewBox="0 0 32 32">
+        <g id="hor">
+          <path d="M23,17.5H9c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5h14c0.8,0,1.5,0.7,1.5,1.5C24.5,16.8,23.8,17.5,23,17.5z"></path>
+        </g>
+        <g id="circle">
+          <path d="M16,31.5c-8.5,0-15.5-7-15.5-15.5S7.5,0.5,16,0.5s15.5,7,15.5,15.5S24.5,31.5,16,31.5z M16,3.5C9.1,3.5,3.5,9.1,3.5,16   S9.1,28.5,16,28.5S28.5,22.9,28.5,16S22.9,3.5,16,3.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-pencil" viewBox="0 0 24 24">
+        <path d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-pin" viewBox="0 0 24 24">
+        <path d="M16,12V4H17V2H7V4H8V12L6,14V16H11.2V22H12.8V16H18V14L16,12Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-plus-card" viewBox="0 0 24 24">
+        <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   20,14 20,20 2,20 2,7 13,7  "></polyline>
+        <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="20" y1="10" x2="20" y2="4"></line>
+        <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17" y1="7" x2="23" y2="7"></line>
+      </symbol>
+      <symbol id="ghq-svg-plus1" viewBox="0 0 32 32">
+        <g id="hor">
+          <path d="M30,17.5H2c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5h28c0.8,0,1.5,0.7,1.5,1.5C31.5,16.8,30.8,17.5,30,17.5z"></path>
+        </g>
+        <g id="vert">
+          <path d="M16,31.5c-0.8,0-1.5-0.7-1.5-1.5V2c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5v28C17.5,30.8,16.8,31.5,16,31.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-popout" viewBox="0 0 32 32">
+        <g>
+          <path d="M30,31.5H2c-0.8,0-1.5-0.7-1.5-1.5V2c0-0.8,0.7-1.5,1.5-1.5h6c0.8,0,1.5,0.7,1.5,1.5S8.8,3.5,8,3.5H3.5v25h25V24   c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5v6C31.5,30.8,30.8,31.5,30,31.5z"></path>
+        </g>
+        <g>
+          <path d="M13.7,25.4c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1L24,11.5c0.3-0.3,0.6-0.4,1.1-0.4c0.4,0,0.8,0.2,1.1,0.5l2.3,2.4   V3.5H18.1l2.4,2.3c0.3,0.3,0.4,0.7,0.5,1.1c0,0.4-0.2,0.8-0.4,1.1L9.2,19.4c-0.6,0.6-1.5,0.6-2.1,0c-0.6-0.6-0.6-1.5,0-2.1   L17.3,6.9l-3.9-3.8C12.9,2.6,12.8,2,13,1.4c0.2-0.6,0.8-0.9,1.4-0.9H30c0.8,0,1.5,0.7,1.5,1.5v15.6c0,0.6-0.4,1.2-0.9,1.4   c-0.6,0.2-1.2,0.1-1.6-0.3l-3.8-3.9l-3.5,3.5L14.8,25C14.5,25.3,14.1,25.4,13.7,25.4z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-pulse-fill" viewBox="0 0 24 24">
+        <path d="M5.1,13.4l4.8-9.2l1.2,10l3.6-4.6l3.7,3.8h3.4c0.1-0.4,0.1-0.9,0.1-1.4c0-5.5-4.5-10-10-10C6.5,2,2,6.5,2,12  c0,0.5,0.1,0.9,0.1,1.4H5.1z"></path>
+        <path d="M17.6,15.6L15,13l-5.2,6.8l-1.1-8.2l-2.2,4.1H2.7C4.2,19.3,7.7,22,12,22s7.8-2.7,9.3-6.4H17.6z"></path>
+      </symbol>
+      <symbol id="ghq-svg-pulse" viewBox="0 0 24 24">
+        <path d="M9.4,11.7l0.8,6.3l4.2-5.3l1.9,2h5.3c0.2-0.9,0.4-1.8,0.4-2.7c0-5.5-4.5-10-10-10c-5,0-9.2,3.7-9.9,8.5h2  c0.7-3.7,4-6.5,7.9-6.5c4.4,0,8,3.6,8,8c0,0.2,0,0.5,0,0.7h-2.8l-3-3l-2.6,3.3l-1-7.9l-4,7.6l-4.6,0c0.4,5.2,4.7,9.3,10,9.3  c3.7,0,7-2,8.7-5.1h-2.4c-1.5,1.9-3.7,3.1-6.3,3.1c-3.5,0-6.4-2.2-7.5-5.3h3.4L9.4,11.7z"></path>
+      </symbol>
+      <symbol id="ghq-svg-question2" viewBox="0 0 32 32">
+        <g id="circle_1_">
+          <path d="M16.6,31.6c-0.2,0-0.4,0-0.6,0c-0.8,0-1.4-0.7-1.4-1.5V27c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5v1.6   c2.2-0.3,4.1-1.3,5-1.9l0.1-0.1c3.6-2.3,5.9-6.3,5.9-10.6c0-6.9-5.6-12.5-12.5-12.5S3.5,9.1,3.5,16c0,4.9,2.7,9.2,7,11.2   c0.8,0.4,1.1,1.2,0.7,2c-0.4,0.8-1.2,1.1-2,0.7c-5.3-2.5-8.8-8-8.8-14c0-8.5,7-15.5,15.5-15.5s15.5,7,15.5,15.5   c0,5.3-2.7,10.3-7.3,13.2L24,29.3C22.8,30,20,31.6,16.6,31.6z"></path>
+        </g>
+        <g>
+          <path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M18.7,18.4"></path>
+        </g>
+        <g>
+          <path d="M16,23.5c-0.8,0-1.5-0.7-1.5-1.5v-1.4c0-2.2,1.4-3.4,2.5-4.4c0.8-0.7,1.5-1.3,1.9-2.2c0.4-0.8,0.4-1.7,0.1-2.6   c-0.3-0.8-0.7-1.4-1.3-1.7c-1.2-0.6-2.9-0.4-3.8,0.4c-1.1,1-1.2,2.7-1.1,3.4c0,0.8-0.6,1.5-1.4,1.6c-0.8,0-1.5-0.6-1.6-1.4   c-0.1-2.5,0.6-4.5,2.1-5.8c1.7-1.6,4.8-2,7.1-0.9c1.3,0.6,2.4,1.9,2.9,3.4c0.6,1.7,0.4,3.4-0.3,4.8c-0.7,1.5-1.8,2.4-2.6,3.2   c-1.1,0.9-1.5,1.4-1.5,2.1V22C17.5,22.8,16.8,23.5,16,23.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-search" viewBox="0 0 32 32">
+        <g>
+          <path d="M30,31.5c-0.4,0-0.8-0.1-1.1-0.4l-8.2-8.2c-4.9,3.9-12.1,3.5-16.6-1c-2.4-2.4-3.7-5.5-3.7-8.9c0-3.4,1.3-6.5,3.7-8.9   C6.5,1.8,9.6,0.5,13,0.5c3.4,0,6.5,1.3,8.9,3.7c3.2,3.2,4.5,8,3.2,12.3c-0.2,0.8-1.1,1.2-1.9,1c-0.8-0.2-1.2-1.1-1-1.9   c1-3.3,0-6.8-2.4-9.3c-1.8-1.8-4.2-2.8-6.7-2.8s-4.9,1-6.7,2.8S3.5,10.5,3.5,13s1,4.9,2.8,6.7c3.7,3.7,9.8,3.7,13.5,0   c0.6-0.6,1.5-0.6,2.1,0l9.2,9.2c0.6,0.6,0.6,1.5,0,2.1C30.8,31.4,30.4,31.5,30,31.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-star" viewBox="0 0 32 32">
+        <g id="star">
+          <path d="M7.3,30.8c-0.3,0-0.6-0.1-0.8-0.2c-0.5-0.3-0.8-0.9-0.7-1.5l0.8-5.2c0.1-0.8,0.9-1.4,1.7-1.3c0.8,0.1,1.4,0.9,1.3,1.7   l-0.3,1.9l5.9-3.7c0.5-0.3,1.1-0.3,1.6,0l5.9,3.7l-1.2-7.3c-0.1-0.5,0.1-1,0.4-1.3l4.5-4.4l-6.3-0.3c-0.5,0-1-0.3-1.3-0.8l-3-6   l-3,6c-0.2,0.5-0.7,0.8-1.3,0.8l-6.3,0.3l4.5,4.4c0.6,0.6,0.6,1.5,0,2.1c-0.6,0.6-1.5,0.6-2.1,0L1,13c-0.4-0.4-0.6-1-0.4-1.6   c0.2-0.6,0.7-0.9,1.3-1l8.8-0.5L14.7,2c0.3-0.5,0.8-0.8,1.3-0.8c0.6,0,1.1,0.3,1.3,0.8l3.9,7.9l8.8,0.5c0.6,0,1.1,0.4,1.3,1   c0.2,0.6,0.1,1.2-0.4,1.6l-6.4,6.3l1.6,9.8c0.1,0.6-0.2,1.2-0.7,1.5c-0.5,0.3-1.1,0.3-1.6,0l-7.9-5l-7.9,5   C7.9,30.7,7.6,30.8,7.3,30.8z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-team3" viewBox="0 0 32 32">
+        <path d="M16,0.5C7.4,0.5,0.5,7.4,0.5,16S7.4,31.5,16,31.5S31.5,24.6,31.5,16S24.6,0.5,16,0.5z M23,12.5h-5.5V25  c0,0.8-0.7,1.5-1.5,1.5c-0.8,0-1.5-0.7-1.5-1.5V12.5H9c-0.8,0-1.5-0.7-1.5-1.5S8.2,9.5,9,9.5h14c0.8,0,1.5,0.7,1.5,1.5  S23.8,12.5,23,12.5z"></path>
+      </symbol>
+      <symbol id="ghq-svg-trash" viewBox="0 0 32 32">
+        <g>
+          <path d="M23.2,31.5H8.9c-2.4,0-4.3-1.9-4.5-4.3L3.5,8.1c0-0.4,0.1-0.8,0.4-1.1C4.2,6.7,4.6,6.5,5,6.5h22c0.8,0,1.5,0.7,1.5,1.5   S27.8,9.5,27,9.5H6.6L7.4,27c0.1,0.8,0.7,1.5,1.5,1.5h14.3c0.8,0,1.5-0.7,1.5-1.5l0.6-14.1c0-0.8,0.7-1.5,1.6-1.4   c0.8,0,1.5,0.7,1.4,1.6l-0.6,14.1C27.5,29.6,25.6,31.5,23.2,31.5z"></path>
+        </g>
+        <g>
+          <path d="M30,9.5H2C1.2,9.5,0.5,8.8,0.5,8S1.2,6.5,2,6.5h28c0.8,0,1.5,0.7,1.5,1.5S30.8,9.5,30,9.5z"></path>
+        </g>
+        <g>
+          <path d="M23,9.5C23,9.5,23,9.5,23,9.5H9C8.6,9.5,8.1,9.3,7.9,9C7.6,8.6,7.4,8.2,7.5,7.7l0.6-3.5c0.3-2.1,2.2-3.7,4.4-3.7h6.9   c2.2,0,4,1.5,4.5,3.7l0.6,3.3c0.1,0.2,0.1,0.3,0.1,0.5C24.5,8.8,23.8,9.5,23,9.5z M10.8,6.5h10.4l-0.3-1.7   c-0.2-0.7-0.8-1.3-1.5-1.3h-6.9c-0.6,0-1.3,0.4-1.4,1.2L10.8,6.5z"></path>
+        </g>
+        <g>
+          <path d="M12,24.5c-0.8,0-1.5-0.7-1.5-1.5v-8c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5v8C13.5,23.8,12.8,24.5,12,24.5z"></path>
+        </g>
+        <g>
+          <path d="M20,24.5c-0.8,0-1.5-0.7-1.5-1.5v-8c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5v8C21.5,23.8,20.8,24.5,20,24.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-verification" viewBox="0 0 56 56">
+        <g>
+          <path d="M55.4,21.5c-0.2-0.5-0.7-0.9-1.2-1l-8-1c-0.8-0.1-1.6,0.5-1.7,1.3c-0.1,0.8,0.5,1.6,1.3,1.7l5,0.6   L39.9,33.9c-0.3,0.3-0.5,0.8-0.4,1.3L42,50.2l-13.3-7.5c-0.5-0.3-1-0.3-1.5,0L14,50.2l2.5-14.9c0.1-0.5-0.1-1-0.4-1.3L5.1,23   l15.1-2.5c0.5-0.1,0.9-0.4,1.1-0.8L28,6.4l5.7,11.3c0.4,0.7,1.3,1,2,0.7c0.7-0.4,1-1.3,0.7-2l-7-14c-0.3-0.5-0.8-0.8-1.3-0.8   s-1.1,0.3-1.3,0.8L19,17.6L1.8,20.5c-0.6,0.1-1,0.5-1.2,1c-0.2,0.5,0,1.1,0.4,1.5l12.5,12.5l-2.9,17.2c-0.1,0.6,0.1,1.1,0.6,1.5   c0.5,0.3,1.1,0.4,1.6,0.1L28,45.7l15.3,8.6c0.2,0.1,0.5,0.2,0.7,0.2c0.3,0,0.6-0.1,0.9-0.3c0.5-0.3,0.7-0.9,0.6-1.5l-2.9-17.2   l12.5-12.5C55.5,22.7,55.6,22.1,55.4,21.5z"></path>
+          <path d="M22.1,26.9c-0.6-0.6-1.5-0.6-2.1,0c-0.6,0.6-0.6,1.5,0,2.1l7,7c0.3,0.3,0.7,0.4,1.1,0.4c0,0,0.1,0,0.1,0   c0.4,0,0.8-0.2,1.1-0.6l19-25c0.5-0.7,0.4-1.6-0.3-2.1c-0.7-0.5-1.6-0.4-2.1,0.3l-18,23.6L22.1,26.9z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-x1" viewBox="0 0 32 32">
+        <g id="down">
+          <path d="M27,28.5c-0.4,0-0.8-0.1-1.1-0.4l-22-22c-0.6-0.6-0.6-1.5,0-2.1c0.6-0.6,1.5-0.6,2.1,0l22,22c0.6,0.6,0.6,1.5,0,2.1   C27.8,28.4,27.4,28.5,27,28.5z"></path>
+        </g>
+        <g id="up">
+          <path d="M5,28.5c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l22-22c0.6-0.6,1.5-0.6,2.1,0c0.6,0.6,0.6,1.5,0,2.1l-22,22   C5.8,28.4,5.4,28.5,5,28.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-x2" viewBox="0 0 32 32">
+        <g id="down">
+          <path d="M27,30c-0.8,0-1.5-0.3-2.1-0.9l-22-22c-1.2-1.2-1.2-3.1,0-4.2C4,1.7,6,1.7,7.1,2.9l22,22c1.2,1.2,1.2,3.1,0,4.2   C28.5,29.7,27.8,30,27,30z"></path>
+        </g>
+        <g id="up">
+          <path d="M5,30c-0.8,0-1.5-0.3-2.1-0.9c-1.2-1.2-1.2-3.1,0-4.2l22-22c1.2-1.2,3.1-1.2,4.2,0c1.2,1.2,1.2,3.1,0,4.2l-22,22   C6.5,29.7,5.8,30,5,30z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-x3" viewBox="0 0 32 32">
+        <g id="down">
+          <path d="M22,23.5c-0.4,0-0.8-0.1-1.1-0.4l-12-12c-0.6-0.6-0.6-1.5,0-2.1c0.6-0.6,1.5-0.6,2.1,0l12,12c0.6,0.6,0.6,1.5,0,2.1   C22.8,23.4,22.4,23.5,22,23.5z"></path>
+        </g>
+        <g id="up">
+          <path d="M10,23.5c-0.4,0-0.8-0.1-1.1-0.4c-0.6-0.6-0.6-1.5,0-2.1l12-12c0.6-0.6,1.5-0.6,2.1,0c0.6,0.6,0.6,1.5,0,2.1l-12,12   C10.8,23.4,10.4,23.5,10,23.5z"></path>
+        </g>
+        <g id="circle">
+          <path d="M16,31.5c-8.5,0-15.5-7-15.5-15.5S7.5,0.5,16,0.5s15.5,7,15.5,15.5S24.5,31.5,16,31.5z M16,3.5C9.1,3.5,3.5,9.1,3.5,16   S9.1,28.5,16,28.5S28.5,22.9,28.5,16S22.9,3.5,16,3.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-check-sprite-15" viewBox="0 0 15 30">
+        <g id="Layer_2">
+          <rect fill="#43BB93" width="15" height="15"></rect>
+        </g>
+        <g id="Layer_1_1_">
+          <path fill="#FFFFFF" d="M5.75 11.29c-0.16 0-0.3-0.06-0.41-0.17l-3.5-3.5c-0.23-0.23-0.23-0.6 0-0.83 0.22-0.22 0.59-0.22 0.82 0l3.09 3.08 6.59-6.58c0.22-0.23 0.59-0.23 0.82 0 0.22 0.23 0.22 0.6 0 0.82l-7 7C6.05 11.23 5.9 11.29 5.75 11.29z"></path>
+        </g>
+        <rect x="0.37" y="15.38" fill="#FFFFFF" width="14.25" height="14.25"></rect>
+        <path fill="#C2C1C0" d="M14.25 15.75v13.5H0.75v-13.5H14.25M15 15H0v15h15V15L15 15z"></path>
+      </symbol>
+      <symbol id="ghq-svg-check-sprite-tutorial-guru-purple-light" viewBox="0 0 15 30">
+        <g>
+          <path fill="#43bb93" d="M0,1c0-0.55,0.45-1,1-1h13c0.55,0,1,0.45,1,1v13c0,0.55-0.45,1-1,1H1c-0.55,0-1-0.45-1-1V1z"></path>
+        </g>
+        <path fill="#a788ba" d="M5.75,11.29c-0.16,0-0.3-0.06-0.41-0.17l-3.5-3.5c-0.23-0.23-0.23-0.6,0-0.83c0.22-0.22,0.59-0.22,0.82,0  l3.09,3.08l6.59-6.58c0.221-0.23,0.59-0.23,0.82,0c0.22,0.23,0.22,0.6,0,0.82l-7,7C6.05,11.23,5.9,11.29,5.75,11.29z"></path>
+        <path fill="#a788ba" d="M0.37,15.38h14.25v14.25H0.37V15.38z"></path>
+        <g>
+          <path fill="#fafafa" d="M14.25,15.75v12.5c0,0.55-0.45,1-1,1H1.75c-0.55,0-1-0.45-1-1v-11.5c0-0.55,0.45-1,1-1H14.25 M15,16c0-0.55-0.45-1-1-1H1   c-0.55,0-1,0.45-1,1v13c0,0.55,0.45,1,1,1h13c0.55,0,1-0.45,1-1V16z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-check-sprite-tutorial-guru-purple-mid" viewBox="0 0 15 30">
+        <g>
+          <path fill="#43bb93" d="M0,1c0-0.55,0.45-1,1-1h13c0.55,0,1,0.45,1,1v13c0,0.55-0.45,1-1,1H1c-0.55,0-1-0.45-1-1V1z"></path>
+        </g>
+        <path fill="#8960a3" d="M5.75,11.29c-0.16,0-0.3-0.06-0.41-0.17l-3.5-3.5c-0.23-0.23-0.23-0.6,0-0.83c0.22-0.22,0.59-0.22,0.82,0  l3.09,3.08l6.59-6.58c0.221-0.23,0.59-0.23,0.82,0c0.22,0.23,0.22,0.6,0,0.82l-7,7C6.05,11.23,5.9,11.29,5.75,11.29z"></path>
+        <path fill="#8960a3" d="M0.37,15.38h14.25v14.25H0.37V15.38z"></path>
+        <g>
+          <path fill="#fafafa" d="M14.25,15.75v12.5c0,0.55-0.45,1-1,1H1.75c-0.55,0-1-0.45-1-1v-11.5c0-0.55,0.45-1,1-1H14.25 M15,16c0-0.55-0.45-1-1-1H1   c-0.55,0-1,0.45-1,1v13c0,0.55,0.45,1,1,1h13c0.55,0,1-0.45,1-1V16z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-check-sprite-tutorial" viewBox="0 0 15 30">
+        <g>
+          <path fill="#43bb93" d="M0,1c0-0.55,0.45-1,1-1h13c0.55,0,1,0.45,1,1v13c0,0.55-0.45,1-1,1H1c-0.55,0-1-0.45-1-1V1z"></path>
+        </g>
+        <path fill="#6B3B8A" d="M5.75,11.29c-0.16,0-0.3-0.06-0.41-0.17l-3.5-3.5c-0.23-0.23-0.23-0.6,0-0.83c0.22-0.22,0.59-0.22,0.82,0  l3.09,3.08l6.59-6.58c0.221-0.23,0.59-0.23,0.82,0c0.22,0.23,0.22,0.6,0,0.82l-7,7C6.05,11.23,5.9,11.29,5.75,11.29z"></path>
+        <path fill="#6B3B8A" d="M0.37,15.38h14.25v14.25H0.37V15.38z"></path>
+        <g>
+          <path fill="#fafafa" d="M14.25,15.75v12.5c0,0.55-0.45,1-1,1H1.75c-0.55,0-1-0.45-1-1v-11.5c0-0.55,0.45-1,1-1H14.25 M15,16c0-0.55-0.45-1-1-1H1   c-0.55,0-1,0.45-1,1v13c0,0.55,0.45,1,1,1h13c0.55,0,1-0.45,1-1V16z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-check-sprite" viewBox="0 0 15 30">
+        <g>
+          <path fill="#43bb93" d="M0,1c0-0.55,0.45-1,1-1h13c0.55,0,1,0.45,1,1v13c0,0.55-0.45,1-1,1H1c-0.55,0-1-0.45-1-1V1z"></path>
+        </g>
+        <path fill="#fafafa" d="M5.75,11.29c-0.16,0-0.3-0.06-0.41-0.17l-3.5-3.5c-0.23-0.23-0.23-0.6,0-0.83c0.22-0.22,0.59-0.22,0.82,0  l3.09,3.08l6.59-6.58c0.221-0.23,0.59-0.23,0.82,0c0.22,0.23,0.22,0.6,0,0.82l-7,7C6.05,11.23,5.9,11.29,5.75,11.29z"></path>
+        <path fill="#fafafa" d="M0.37,15.38h14.25v14.25H0.37V15.38z"></path>
+        <g>
+          <path d="M14.25,15.75v12.5c0,0.55-0.45,1-1,1H1.75c-0.55,0-1-0.45-1-1v-11.5c0-0.55,0.45-1,1-1H14.25 M15,16c0-0.55-0.45-1-1-1H1   c-0.55,0-1,0.45-1,1v13c0,0.55,0.45,1,1,1h13c0.55,0,1-0.45,1-1V16z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-pencil" viewBox="0 0 32 32">
+        <g>
+          <path d="M8.3,31.5H0.5v-7.8l19-19l3.9,3.9c0.6,0.6,0.6,1.5,0,2.1c-0.6,0.6-1.5,0.6-2.1,0l-1.7-1.7l-16,16v3.6h3.6L28.4,7.1   c0.4-0.4-0.1-1.6-1-2.5c-0.9-0.9-2.1-1.5-2.6-1l-1.3,1.3c-0.6,0.6-1.5,0.6-2.1,0c-0.6-0.6-0.6-1.5,0-2.1l1.3-1.3   c1.8-1.7,4.6-1.2,6.8,1.1c2.2,2.3,2.6,5.1,1,6.7L8.3,31.5z"></path>
+        </g>
+        <g>
+          <path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M3.5,22.8"></path>
+        </g>
+        <g>
+          <path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M9.2,28.5"></path>
+        </g>
+        <g>
+          <path d="M9.7,30.2L7.5,28c0.1-0.1,0-0.4,0-0.5c-0.3-1.2-1.9-2.8-3.1-3.1c-0.1,0-0.4-0.1-0.5,0l-2.1-2.1c0.9-0.9,2.1-1.1,3.4-0.8   c2.2,0.6,4.6,3,5.2,5.2C10.8,28.1,10.5,29.3,9.7,30.2z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-radio-button-sprite" viewBox="0 0 15 30">
+        <path fill="#999999" d="M7.5,2c3,0,5.5,2.5,5.5,5.5S10.5,13,7.5,13S2,10.5,2,7.5S4.5,2,7.5,2 M7.5,0C3.4,0,0,3.4,0,7.5  S3.4,15,7.5,15S15,11.6,15,7.5S11.6,0,7.5,0L7.5,0z"></path>
+        <path fill="#999999" d="M7.5,17c3,0,5.5,2.5,5.5,5.5S10.5,28,7.5,28S2,25.5,2,22.5S4.5,17,7.5,17 M7.5,15C3.4,15,0,18.4,0,22.5  S3.4,30,7.5,30s7.5-3.4,7.5-7.5S11.6,15,7.5,15L7.5,15z"></path>
+        <g>
+          <circle fill="#00CC99" cx="7.5" cy="7.5" r="4"></circle>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-search-black" viewBox="0 0 32 32">
+        <g>
+          <path fill="#222222" d="M30,31.5c-0.4,0-0.8-0.1-1.1-0.4l-8.2-8.2c-4.9,3.9-12.1,3.5-16.6-1c-2.4-2.4-3.7-5.5-3.7-8.9c0-3.4,1.3-6.5,3.7-8.9     C6.5,1.8,9.6,0.5,13,0.5c3.4,0,6.5,1.3,8.9,3.7c3.2,3.2,4.5,8,3.2,12.3c-0.2,0.8-1.1,1.2-1.9,1c-0.8-0.2-1.2-1.1-1-1.9     c1-3.3,0-6.8-2.4-9.3c-1.8-1.8-4.2-2.8-6.7-2.8s-4.9,1-6.7,2.8S3.5,10.5,3.5,13s1,4.9,2.8,6.7c3.7,3.7,9.8,3.7,13.5,0     c0.6-0.6,1.5-0.6,2.1,0l9.2,9.2c0.6,0.6,0.6,1.5,0,2.1C30.8,31.4,30.4,31.5,30,31.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-search-grey" viewBox="0 0 32 32">
+        <g>
+          <path fill="#bbbbbb" d="M30,31.5c-0.4,0-0.8-0.1-1.1-0.4l-8.2-8.2c-4.9,3.9-12.1,3.5-16.6-1c-2.4-2.4-3.7-5.5-3.7-8.9c0-3.4,1.3-6.5,3.7-8.9     C6.5,1.8,9.6,0.5,13,0.5c3.4,0,6.5,1.3,8.9,3.7c3.2,3.2,4.5,8,3.2,12.3c-0.2,0.8-1.1,1.2-1.9,1c-0.8-0.2-1.2-1.1-1-1.9     c1-3.3,0-6.8-2.4-9.3c-1.8-1.8-4.2-2.8-6.7-2.8s-4.9,1-6.7,2.8S3.5,10.5,3.5,13s1,4.9,2.8,6.7c3.7,3.7,9.8,3.7,13.5,0     c0.6-0.6,1.5-0.6,2.1,0l9.2,9.2c0.6,0.6,0.6,1.5,0,2.1C30.8,31.4,30.4,31.5,30,31.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-search-white" viewBox="0 0 32 32">
+        <g>
+          <path fill="#ffffff" d="M30,31.5c-0.4,0-0.8-0.1-1.1-0.4l-8.2-8.2c-4.9,3.9-12.1,3.5-16.6-1c-2.4-2.4-3.7-5.5-3.7-8.9c0-3.4,1.3-6.5,3.7-8.9     C6.5,1.8,9.6,0.5,13,0.5c3.4,0,6.5,1.3,8.9,3.7c3.2,3.2,4.5,8,3.2,12.3c-0.2,0.8-1.1,1.2-1.9,1c-0.8-0.2-1.2-1.1-1-1.9     c1-3.3,0-6.8-2.4-9.3c-1.8-1.8-4.2-2.8-6.7-2.8s-4.9,1-6.7,2.8S3.5,10.5,3.5,13s1,4.9,2.8,6.7c3.7,3.7,9.8,3.7,13.5,0     c0.6-0.6,1.5-0.6,2.1,0l9.2,9.2c0.6,0.6,0.6,1.5,0,2.1C30.8,31.4,30.4,31.5,30,31.5z"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-guru-suggestions" viewBox="0 0 100 100">
+        <path fill="#A788BA" style="fill: #A788BA;" d="M19.4 66.1c8.4 0.7 19 6.4 23.3 15.8 0.5 1 0 2.2-1 2.6 -1 0.5-2.2 0-2.6-1 -3.6-7.9-13-12.8-20-13.4 -2.4-0.2-6.6-0.1-8.7 2.9 -0.2 0.3-0.4 0.7-0.6 1 4.6 8.1 11.6 14.7 20 18.7 6.4 1.7 14.1 2.8 23.2 2.8 0 0 0 0 0.1 0 0 0 0 0 0.1 0 3 0 5.9-0.1 8.6-0.3 12.8-3.8 23.2-13 28.5-25.1 -3.5-0.4-7.7 0.7-11.1 2.2 -0.1 0.1-0.3 0.1-0.4 0.2 0.2 2.8 0 5.6-1.2 8.4 -1.7 3.9-4 5.3-5.7 5.7 -1.7 0.5-3.4 0.2-4.7-0.8 -1.3-0.9-2-2.2-2.2-3.7 -0.3-2.4 1-4.9 2.3-6.3 1.9-2.2 4.4-4.1 7.2-5.7 -0.1-0.8-0.3-1.7-0.5-2.6l0-0.2C72.6 60.6 67 52 59 49.4c-1.1-0.3-1.6-1.5-1.3-2.5 0.3-1 1.5-1.6 2.5-1.3 9.5 3.1 16 12.9 17.5 21l0 0.2c0.1 0.5 0.2 1 0.3 1.5 4.3-1.8 9.3-2.8 13.6-2.1 0.9-2.6 1.5-5.2 1.9-8 -0.7 1-1.7 1.8-2.7 2.5 -1.7 1.1-3.6 1.6-5.5 1.6 -0.9 0-1.8-0.1-2.6-0.4 -4.2-1.2-5.9-4.9-5.4-7.7 0.5-2.3 2.6-4.8 7.1-4.3 1.1 0.1 1.9 1.1 1.8 2.2s-1.1 1.9-2.2 1.8c-0.6-0.1-2.5-0.2-2.8 1.1 -0.2 0.9 0.5 2.5 2.6 3.1 1.5 0.4 3.3 0.1 4.8-0.8 1.5-0.9 2.5-2.3 2.7-3.8 0.2-1.1 1.2-1.8 2.3-1.6 0.1 0 0.2 0 0.2 0.1 0-17.1-9.5-32-23.6-39.6 0 0 0 0 0 0.1 -0.7 0.8-1.6 1.5-2.5 2.1 -0.3 0.2-0.7 0.3-1.1 0.3 -0.7 0-1.3-0.3-1.7-0.9 -0.6-0.9-0.3-2.2 0.6-2.8 0.3-0.2 0.6-0.4 0.9-0.7C63 9 59.1 8 55.1 7.4c0 0.1 0 0.2 0 0.4 0.1 1.1-0.8 2.1-1.9 2.1 0 0-0.1 0-0.1 0 -1 0-1.9-0.8-2-1.9 0-0.3 0-0.7 0-1C50.4 7 49.7 7 49 7 24.1 7 4 27.1 4 52c0 6.3 1.3 12.4 3.7 17.9C10.2 67 14.3 65.6 19.4 66.1zM72.8 24.4c0.3-0.1 1.3-0.4 2.1-0.6 1-0.4 2.2 0.2 2.6 1.2 0.4 1-0.2 2.2-1.2 2.6 -2.4 0.9-3.1 0.9-3.3 0.9 -1.1 0-2-0.9-2-2C70.9 25.4 71.8 24.5 72.8 24.4zM36.5 10c0.7-0.8 2-0.9 2.8-0.1 0.6 0.5 1.2 1 1.8 1.3 1 0.5 1.3 1.7 0.8 2.7 -0.4 0.7-1.1 1.1-1.8 1.1 -0.3 0-0.6-0.1-0.9-0.2 -1-0.5-1.9-1.2-2.7-1.9C35.8 12.1 35.8 10.8 36.5 10zM41.3 47.9c2.5-1.6 5.1-2.7 7.7-3.7 4-1.6 7.9-3.1 10.4-6.4 2.8-3.6 4-8.4 2.9-12.5C61.9 23.6 60 18 53 18c-6.2 0-8.6 4.8-9.5 7.6 -1.5 4.8 0.5 10.3 4.7 13.6 0.9 0.7 1.1 1.9 0.4 2.8 -0.7 0.9-1.9 1.1-2.8 0.4 -5.6-4.2-8.1-11.6-6.1-18C41.7 17.8 46.6 14 53 14c7.8 0 12 5.4 13.3 10.4 1.3 5.3-0.1 11.4-3.7 15.9 -3.2 4.1-7.7 5.9-12.1 7.6 -2.5 1-4.9 2-7.1 3.3 -3.7 2.4-6.5 5.2-8.2 8.2 -0.4 0.7-1 1-1.7 1 -0.3 0-0.7-0.1-1-0.3 -1-0.5-1.3-1.8-0.8-2.7C33.8 53.9 37.1 50.6 41.3 47.9zM29 25.1c0.3-1.1 1.3-1.7 2.4-1.5 0.7 0.2 1.5 0.3 2.2 0.2 1.1 0 2 0.8 2.1 1.9 0 1.1-0.8 2-1.9 2.1 -0.1 0-0.3 0-0.4 0 -1 0-2-0.1-2.9-0.4C29.4 27.2 28.7 26.1 29 25.1zM12.2 51.9c1.1-0.2 2.1 0.5 2.3 1.6 0.3 1.5 1.3 2.9 2.7 3.8 0 0 0.1 0 0.1 0.1 0.2 0.1 0.4 0.1 0.5 0.2 0.1 0 0.1 0.1 0.2 0.1 1.3 0.6 2.8 0.7 4 0.4 2.1-0.6 2.8-2.2 2.6-3.1 -0.3-1.3-2.2-1.2-2.8-1.1 -1.1 0.1-2.1-0.7-2.2-1.8 -0.1-1.1 0.7-2.1 1.8-2.2 4.5-0.5 6.7 2 7.1 4.3 0.5 2.3-0.6 5.2-3.4 6.9 6.6 2 13.9 1.5 20.2-1.6 1-0.5 2.2-0.1 2.7 0.9 0.5 1 0.1 2.2-0.9 2.7 -4.3 2.2-9.1 3.3-13.9 3.3 -6 0-12.1-1.7-17.2-5.1 -0.3-0.2-0.6-0.3-0.9-0.5 -2.4-1.5-4.1-3.9-4.6-6.5C10.4 53.1 11.2 52.1 12.2 51.9z"></path>
+        <path fill="#A788BA" style="fill: #A788BA;" d="M70.1 78.4c-0.9 1-1.4 2.3-1.3 3.2 0 0.4 0.2 0.6 0.5 0.9 0.3 0.2 0.7 0.4 1.4 0.2 1.1-0.3 2.2-1.6 3.1-3.5 0.7-1.6 1-3.1 1-4.7C73 75.7 71.4 77 70.1 78.4z"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M50 95.5c-35.5 0-51.1-15.8-44.3-25.7 5.8-8.5 26.3-2 32.2 10.8"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M56.7 45.5c8.7 2.8 14.8 12 16.2 19.5 0.8 4.5 1.7 8.8-0.2 13.1 -2.1 4.9-5.5 5.5-7.4 4.1 -2.4-1.7-1.3-5 0.5-7.1 2.6-2.9 6-5.2 9.6-6.7 5.4-2.3 14.7-4.4 19 1.1 0.1 0.1 0.1 0.2 0.2 0.3 6.8 9.8-8.8 25.7-44.3 25.7"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M44 38.8c-4.7-3.6-7.2-9.9-5.4-15.8 1.5-4.7 5-9 11.4-9 6.5 0 10.2 4.3 11.3 8.9 1.2 4.9-0.2 10.3-3.3 14.2 -4.6 5.9-12.6 6.6-18.6 10.5 -3.5 2.3-6.8 5.2-8.8 8.9"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M90.4 51.9c-0.8 4.4-5.8 7.4-10.1 6.2 -5.5-1.6-5.6-8.8 1-8.1"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.6 51.9c0.8 4.4 5.8 7.4 10.1 6.2 5.5-1.6 5.6-8.8-1-8.1"></path>
+        <path fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M43.3 59.3c-9.3 4.7-20.9 3.9-29.5-2"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M50.1 5.9c-0.1-0.8-0.1-1.6 0-2.4"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M63.8 10.9c0.8-0.5 1.5-1.1 2.1-1.8"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M69.9 24.4c0.6 0 2.7-0.8 2.7-0.8"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M37.2 10.9c-0.8-0.4-1.6-1-2.2-1.6"></path>
+        <path fill="none" style="fill: none;" stroke="#222222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M30.7 23.8c-0.9 0-1.9-0.1-2.8-0.3"></path>
+      </symbol>
+      <symbol id="ghq-svg-logo-box" viewBox="0 0 500 500">
+        <path d="M299.3,276L299.3,276c0-20.7-16.7-37.4-37.4-37.4c-20.5,0-37.2,16.7-37.2,37.4l0,0  c0,20.5,16.7,37.2,37.2,37.2C282.6,313.3,299.3,296.5,299.3,276 M324.2,276c0,34.3-27.9,62.1-62.3,62.1c-23.7,0-44.4-13.4-54.8-33  c-10.5,19.6-31.1,33-54.8,33c-34,0-61.7-27.3-62.3-61.1l0,0l0,0V173.6l0,0l0,0c0-6.4,5.7-11.9,12.5-11.9s12.2,5.5,12.4,11.9l0,0l0,0  v52.7c10.5-7.9,23.4-12.5,37.4-12.5c23.7,0,44.4,13.4,54.8,33c10.5-19.6,31.1-33,54.8-33C296.3,213.8,324.2,241.7,324.2,276  L324.2,276 M189.5,276L189.5,276c0-20.7-16.7-37.4-37.2-37.4c-20.7,0-37.4,16.7-37.4,37.4l0,0c0,20.5,16.7,37.2,37.4,37.2  C172.8,313.3,189.5,296.5,189.5,276 M407.7,318.5L407.7,318.5c1.6,2.3,2.3,4.9,2.3,7.4c0,3.8-1.7,7.7-4.9,9.9  c-2.3,1.6-4.8,2.5-7.4,2.5c-3.6,0-7.3-1.6-9.5-4.7l-27.8-36.8l-27.5,36.8l0,0c-2.5,3.1-6.1,4.7-9.7,4.7c-2.6,0-5.2-0.9-7.7-2.5  c-3.1-2.2-4.8-6.3-4.8-10c0-2.5,0.9-5.1,2.3-7.3l0,0l0,0l0,0l31.6-42.5L313,233.4l0,0l0,0l0,0c-1.6-2.2-2.3-4.7-2.3-7.3  c0-3.8,1.7-7.4,4.8-9.9c5.7-4.1,13.2-3.1,17.5,2.3l0,0l27.5,36.7l27.8-36.7c3.8-5.4,11.5-6.4,16.9-2.3c3.3,2.5,4.9,6.3,4.9,10.2  c0,2.5-0.7,4.9-2.3,7l0,0l0,0l0,0L376,276L407.7,318.5L407.7,318.5L407.7,318.5z"></path>
+      </symbol>
+      <symbol id="ghq-svg-logo-drive" viewBox="0 0 500 500">
+        <path d="M237.2,220.8l-96.6,167.9L90,301.1l96.7-167.9L237.2,220.8z M216.5,301.1l-50.6,87.6h193.5  l50.6-87.6H216.5z M401.6,286.5L300.4,111.3H199.6h-0.1l101.2,175.2H401.6z"></path>
+      </symbol>
+      <symbol id="ghq-svg-logo-dropbox" viewBox="0 0 500 500">
+        <path d="M184.2,101.4l65.8,54.7l65.8-54.7l94.2,61l-65.1,52.4l65.1,52.1l-94.2,61.4l-65.8-55  l-65.8,55L90,266.9l65.1-52.1L90,162.4L184.2,101.4 M250,156.1l-94.9,58.7l94.9,58.5l94.9-58.5L250,156.1 M250,285.2l66.3,54.9  l28.2-18.4v20.6L250,398.6l-94.2-56.4v-20.6l28.3,18.4L250,285.2z"></path>
+      </symbol>
+      <symbol id="ghq-svg-g-circle" viewBox="0 0 300 300">
+        <g>
+          <circle fill="#00CC99" cx="150" cy="150" r="150"></circle>
+          <g>
+            <path fill="#FFFFFF" style="fill: #FFFFFF;" d="M207.1,174.3c-0.1,0.8-0.2,1.6-0.5,2.5c-1,4.2-3.1,8.6-6,12.8c-2.4,3.5-5.9,7-10.7,10.8    c-4,3.2-8.4,5.8-13.1,7.9c-4.7,2.1-9.7,3.7-14.8,4.6c-3.5,0.6-7.2,0.9-10.8,0.9c-34.8,0-63.1-28.6-63.1-63.8    c0-35.2,28.3-63.8,63.1-63.8c18.7,0,36.3,8.3,48.4,22.9c3,3.6,8.2,4.1,11.8,1.1c3.6-3,4.1-8.2,1.1-11.8    c-15.2-18.4-37.6-28.9-61.3-28.9c-44,0-79.9,36.1-79.9,80.6c0,44.4,35.8,80.6,79.9,80.6c4.6,0,9.2-0.4,13.7-1.2    c6.5-1.1,12.8-3.1,18.9-5.8c5.9-2.6,11.4-6,16.5-10c6.1-4.8,10.7-9.6,14.1-14.5c4-5.8,6.9-12.1,8.4-18.2    c1.3-5.2,1.5-10.1,0.6-14.8C219,168.8,209.9,173,207.1,174.3"></path>
+            <path fill="#FFFFFF" style="fill: #FFFFFF;" d="M240,133c-3.3-3.3-8.6-3.2-11.9,0.1c-5.3,5.4-10.9,9.9-16.7,13.5c-2.4-1.8-5-3.5-8-4.9    c-4.5-2.2-9.6-3.9-15.2-5c-5.3-1-10.9-1.6-16.7-1.6c-8.3,0-13.4,3.2-16.3,5.8c-3.9,3.6-6.2,8.8-6.2,14.1c0,9.5,7.5,19.6,21.5,19.6    c22.1,0,43.7-7.8,60.8-21.8c3-2.5,5.9-5.1,8.6-7.9C243.3,141.5,243.3,136.2,240,133 M170.6,157.7c-2.9,0-4.8-1.1-4.8-2.9    c0-0.5,0.1-1.1,0.8-1.7c1-0.9,2.7-1.4,4.9-1.4c4.7,0,9.2,0.4,13.4,1.3c2.5,0.5,4.9,1.1,7,1.9C185.3,156.8,178.1,157.7,170.6,157.7    "></path>
+          </g>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-g-icon" viewBox="0 0 300 300">
+        <path fill="#00CC99" style="fill: #00CC99;" d="M253.73 300H46.26C20.71 300 0 279.29 0 253.73V46.27C0 20.71 20.71 0 46.26 0h207.48C279.29 0 300 20.71 300 46.27v207.47C300 279.29 279.29 300 253.73 300"></path>
+        <path fill="#FFFFFF" style="fill: #FFFFFF;" d="M219.85 176.31c-0.12 0.95-0.28 1.91-0.54 2.92 -1.23 4.87-3.67 10.05-7.04 14.98 -2.83 4.11-6.92 8.25-12.52 12.65 -4.72 3.71-9.87 6.84-15.3 9.28 -5.55 2.5-11.4 4.3-17.4 5.35 -4.15 0.72-8.42 1.09-12.66 1.09 -40.77 0-73.94-33.53-73.94-74.76 0-41.22 33.17-74.76 73.94-74.76 21.92 0 42.59 9.77 56.7 26.79 3.46 4.17 9.64 4.76 13.83 1.29 4.18-3.46 4.76-9.66 1.29-13.83 -17.86-21.54-44.04-33.9-71.83-33.9 -51.6 0-93.6 42.35-93.6 94.41 0 52.06 41.99 94.42 93.6 94.42 5.37 0 10.76-0.47 16.04-1.39 7.61-1.33 15.04-3.61 22.09-6.79 6.89-3.1 13.41-7.05 19.38-11.75 7.18-5.65 12.6-11.21 16.56-16.97 4.69-6.83 8.1-14.19 9.9-21.29 1.53-6.06 1.72-11.87 0.74-17.36C233.8 169.84 223.19 174.78 219.85 176.31"></path>
+        <path fill="#FFFFFF" style="fill: #FFFFFF;" d="M258.4 127.85c-3.86-3.81-10.08-3.78-13.9 0.08 -6.23 6.29-12.74 11.54-19.59 15.76 -2.77-2.16-5.89-4.09-9.33-5.77 -5.25-2.57-11.24-4.52-17.77-5.82 -6.18-1.23-12.76-1.86-19.57-1.86 -9.67 0-15.73 3.71-19.1 6.83 -4.61 4.25-7.26 10.26-7.26 16.48 0 11.15 8.85 22.99 25.23 22.99 15.03 0 29.18-2.72 42.36-8.13 0 0.01 0.01 0.02 0.01 0.03 7.22-3.35 12.55-5.85 17.57-9.17 -0.01-0.01-0.01-0.02-0.02-0.03 7.53-4.83 14.68-10.66 21.44-17.49C262.29 137.88 262.26 131.66 258.4 127.85M177.12 156.88c-3.44 0-5.58-1.28-5.58-3.34 0-0.54 0.17-1.33 0.93-2.03 1.13-1.04 3.19-1.62 5.78-1.62 5.52 0 10.81 0.5 15.73 1.47 2.94 0.59 5.71 1.34 8.26 2.24C194.3 155.79 185.93 156.88 177.12 156.88"></path>
+      </symbol>
+      <symbol id="ghq-svg-guru-logo" viewBox="0 0 100 22">
+        <path d="M38.3 21.6h-1.3c-4.4 0-8-3.6-8-8V2c0-0.6 0.5-1.1 1.1-1.1 0.6 0 1.1 0.5 1.1 1.1v11.6c0 3.2 2.6 5.7 5.7 5.7h1.3c3.2 0 5.8-2.6 5.8-5.7V2c0-0.6 0.5-1.1 1.1-1.1s1.1 0.5 1.1 1.1v11.6C46.2 18 42.6 21.6 38.3 21.6"></path>
+        <path d="M92 21.6h-1.3c-4.4 0-8-3.6-8-8V2c0-0.6 0.5-1.1 1.1-1.1C84.5 0.9 85 1.3 85 2v11.6c0 3.2 2.6 5.7 5.7 5.7H92c3.2 0 5.7-2.6 5.7-5.7V2c0-0.6 0.5-1.1 1.1-1.1 0.6 0 1.1 0.5 1.1 1.1v11.6C100 18 96.4 21.6 92 21.6"></path>
+        <path d="M17.8 14.2c0 0.1 0 0.2-0.1 0.3 -0.1 0.5-0.4 1.1-0.8 1.7 -0.3 0.5-0.8 0.9-1.4 1.4 -0.5 0.4-1.1 0.8-1.7 1 -0.6 0.3-1.3 0.5-1.9 0.6 -0.5 0.1-0.9 0.1-1.4 0.1 -4.6 0-8.3-3.8-8.3-8.4 0-4.6 3.7-8.4 8.3-8.4 2.5 0 4.8 1.1 6.4 3 0.4 0.5 1.1 0.5 1.6 0.1 0.5-0.4 0.5-1.1 0.1-1.5 -2-2.4-4.9-3.8-8-3.8C4.7 0.4 0 5.2 0 11c0 5.8 4.7 10.6 10.5 10.6 0.6 0 1.2-0.1 1.8-0.2 0.9-0.1 1.7-0.4 2.5-0.8 0.8-0.3 1.5-0.8 2.2-1.3 0.8-0.6 1.4-1.3 1.9-1.9 0.5-0.8 0.9-1.6 1.1-2.4 0.2-0.7 0.2-1.3 0.1-1.9C19.4 13.5 18.2 14 17.8 14.2"></path>
+        <path d="M22.1 8.8c-0.4-0.4-1.1-0.4-1.6 0 -0.7 0.7-1.4 1.3-2.2 1.8 -0.3-0.2-0.7-0.5-1-0.6 -0.6-0.3-1.3-0.5-2-0.7C14.7 9.1 13.9 9 13.2 9c-1.1 0-1.8 0.4-2.1 0.8 -0.5 0.5-0.8 1.1-0.8 1.8 0 1.2 1 2.6 2.8 2.6 1.7 0 3.3-0.3 4.7-0.9 0 0 0 0 0 0 0.8-0.4 1.4-0.7 2-1 0 0 0 0 0 0 0.8-0.5 1.6-1.2 2.4-2C22.6 9.9 22.6 9.2 22.1 8.8M13 12c-0.4 0-0.6-0.1-0.6-0.4 0-0.1 0-0.1 0.1-0.2 0.1-0.1 0.4-0.2 0.6-0.2 0.6 0 1.2 0.1 1.8 0.2 0.3 0.1 0.6 0.1 0.9 0.3C15 11.9 14 12 13 12"></path>
+        <path d="M65.4 14.2"></path>
+        <path d="M73.1 19.6c-2.1-2.4-3.4-4.3-4.5-5.8 -0.1-0.1-0.1-0.2-0.2-0.3 1-0.4 1.9-0.9 2.6-1.6 1.3-1.2 1.9-2.7 1.9-4.6 0-1.9-0.6-3.4-1.7-4.5C69.4 1 66.7 0.9 66.6 1h-9.3c-0.6 0-1.1 0.5-1.1 1.1v18.2c0 0.6 0.5 1.1 1.1 1.1 0.6 0 1.1-0.5 1.1-1.1V3.2h8.2 0c0 0 1.9 0 3.1 1.2 0.7 0.7 1.1 1.7 1.1 3 0 1.2-0.4 2.2-1.2 3C68.9 11 68 11.4 67 11.7c-1.4-1.7-2.6-2.5-4.9-2.5 -1.9 0-3 1.3-3 2.6 0 1.2 1 2.6 2.8 2.6 0.3 0 1.6 0.1 3.3-0.1 -0.7-1-1.6-1.7-1.9-2.1 -0.7 0-1.2 0-1.2 0 0 0-0.1 0-0.1 0 -0.4 0-0.6-0.1-0.6-0.4 0-0.2 0.3-0.4 0.8-0.4 0.9 0 1.5 0.1 2.1 0.5 0 0 0 0 0 0 0.6 0.4 1.2 1.2 2.2 2.5 0 0 0.3 0.4 0.5 0.7 1 1.4 2.5 3.4 4.6 5.9 0.2 0.3 0.5 0.4 0.8 0.4 0.2 0 0.5-0.1 0.7-0.3C73.5 20.7 73.5 20 73.1 19.6"></path>
+      </symbol>
+      <symbol id="ghq-svg-ghq-mm-veri" viewBox="0 0 90 90">
+        <circle fill="#33d6ad" class="st0" cx="45" cy="45" r="45"></circle>
+        <g>
+          <polyline fill="none" stroke="#222222" stroke-width="4" stroke-line-cap="round" stroke-linejoin="round" stroke-miterlimit="10" class="st1" points="65,33.7 76.5,35.4 60.8,50.7 64.5,72.4 45,62.2 25.6,72.4 29.3,50.7 13.5,35.4 35.3,32.2 45,12.5 53.6,30.2  "></polyline>
+          <polyline fill="none" stroke="#222222" stroke-width="4" stroke-line-cap="round" stroke-linejoin="round" stroke-miterlimit="10" class="st1" points="37.2,42.5 45.4,51.3 67.9,20.1  "></polyline>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-arrow" viewBox="0 0 44.53 62.71">
+        <path fill="none" style="fill: none;" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M2 60.71C4 58.86 31.81 36.84 34.82 2"></path>
+        <polyline fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   23.45,12.64 34.82,2 42.53,14.96  "></polyline>
+      </symbol>
+      <symbol id="ghq-svg-bold" viewBox="0 0 20 20">
+        <g>
+          <path d="M11.789457,17.0029998 C14.477265,17.0029998 15.8631661,15.3231198 15.8631661,13.2022713 C15.8631661,11.4593958 14.68725,10.0104993 13.175358,9.77951575 C14.4982635,9.50653525 15.5901856,8.30962074 15.5901856,6.56674523 C15.5901856,4.69787873 14.225283,2.99700022 11.5584735,2.99700022 L4.188,2.99700022 L4.188,17.0029998 L11.789457,17.0029998 Z M10.90752,8.56160274 L7.16978701,8.56160274 L7.16978701,5.62181273 L10.90752,5.62181273 C11.915448,5.62181273 12.545403,6.23076923 12.545403,7.09170774 C12.545403,7.99464324 11.915448,8.56160274 10.90752,8.56160274 L10.90752,8.56160274 Z M11.033511,14.3781873 L7.16978701,14.3781873 L7.16978701,11.1864153 L11.033511,11.1864153 C12.1884285,11.1864153 12.8183835,11.9003643 12.8183835,12.7823013 C12.8183835,13.7902293 12.1464315,14.3781873 11.033511,14.3781873 L11.033511,14.3781873 Z" id="B"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-bullet" viewBox="0 0 20 20">
+        <g>
+          <rect id="Rectangle-1" x="7" y="5" width="12" height="3"></rect>
+          <rect id="Rectangle-1" x="7" y="12" width="10" height="3"></rect>
+          <circle id="Oval-1" cx="3" cy="6.5" r="2"></circle>
+          <circle id="Oval-1" cx="3" cy="13.5" r="2"></circle>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-code" viewBox="0 0 20 20">
+        <g>
+          <path d="M6.38322458,15 L1,10 L6.38322458,5 L8,6.922 L4.68651441,10 L8,13.078 L6.38322458,15 Z M13.6167754,15 L12,13.078 L15.3134856,10 L12,6.922 L13.6167754,5 L19,10 L13.6167754,15 Z" id="Fill-1"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-h1" viewBox="0 0 20 20">
+        <g>
+          <path d="M9.137,5 L11.344,5 L11.344,15 L9.137,15 L9.137,11.0661975 L5.206,11.0661975 L5.206,15 L3,15 L3,5 L5.206,5 L5.206,9.17728743 L9.137,9.17728743 L9.137,5" id="Fill-1"></path>
+          <path d="M12.998,5 L17,5 L17,15 L14.879,15 L14.879,6.90317672 L12.998,6.90317672 L12.998,5" id="Fill-2"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-h2" viewBox="0 0 20 20">
+        <g>
+          <path d="M3,14.384 L3,5.824 L4.359,5.824 L4.359,9.535 L8.354,9.535 L8.354,5.824 L9.712,5.824 L9.712,14.384 L8.354,14.384 L8.354,10.882 L4.359,10.882 L4.359,14.384 L3,14.384" id="Fill-1"></path>
+          <path d="M15.1,9.167 C15.33,8.832 15.446,8.494 15.446,8.151 C15.446,7.808 15.323,7.516 15.077,7.275 C14.832,7.035 14.521,6.914 14.145,6.914 C13.484,6.914 12.936,7.273 12.498,7.992 L11.404,7.318 C11.758,6.755 12.147,6.33 12.573,6.045 C12.999,5.759 13.548,5.616 14.219,5.616 C14.891,5.616 15.48,5.842 15.987,6.296 C16.493,6.749 16.747,7.367 16.747,8.151 C16.747,8.592 16.639,9.012 16.424,9.412 C16.209,9.812 15.814,10.327 15.238,10.955 L13.35,13 L17,13 L17,14.384 L11.497,14.384 L11.497,13.159 L13.937,10.551 C14.482,9.963 14.87,9.502 15.1,9.167" id="Fill-2"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-h3" viewBox="0 0 20 20">
+        <g>
+          <path d="M4.348,13.667 L4.348,6.238 L5.527,6.238 L5.527,9.458 L8.994,9.458 L8.994,6.238 L10.173,6.238 L10.173,13.667 L8.994,13.667 L8.994,10.627 L5.527,10.627 L5.527,13.667 L4.348,13.667" id="Fill-1"></path>
+          <path d="M11.912,7.354 L11.912,6.238 L15.998,6.238 L15.998,7.216 L14.31,9.224 C14.949,9.246 15.449,9.46 15.808,9.867 C16.168,10.275 16.348,10.762 16.348,11.329 C16.348,12.087 16.106,12.682 15.623,13.114 C15.14,13.546 14.519,13.762 13.76,13.762 C13.001,13.762 12.258,13.504 11.532,12.987 L12.031,11.977 C12.604,12.402 13.204,12.614 13.83,12.614 C14.236,12.614 14.571,12.514 14.834,12.312 C15.097,12.11 15.229,11.819 15.229,11.44 C15.229,11.061 15.082,10.758 14.789,10.531 C14.496,10.305 14.09,10.191 13.57,10.191 C13.311,10.191 13.061,10.23 12.821,10.308 L12.821,9.352 L14.439,7.354 L11.912,7.354" id="Fill-2"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-image" viewBox="0 0 20 20">
+        <g>
+          <path d="M3,3 L3,17 L6.871,13.005 L10.683,16.363 L9.091,13.574 L11.739,10 L17,17 L17,3 L3,3 L3,3 Z M7.995,8.977 C6.863,8.977 5.946,8.06 5.946,6.928 C5.946,5.796 6.863,4.879 7.995,4.879 C9.127,4.879 10.044,5.796 10.044,6.928 C10.044,8.06 9.127,8.977 7.995,8.977 L7.995,8.977 Z" id="Imported-Layers"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-italic" viewBox="0 0 20 20">
+        <g>
+          <path d="M11.8181818,4.44 L13.7373737,4.44 L14,3 L8.48484848,3 L8.22222222,4.44 L10.1414141,4.44 L8.18181818,15.56 L6.26262626,15.56 L6,17 L11.5151515,17 L11.7777778,15.56 L9.85858586,15.56 L11.8181818,4.44 Z" id="I"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-link" viewBox="0 0 20 20">
+        <g>
+          <path d="M9.24647784,6.29920309 C9.7334866,4.40313315 11.4780605,3 13.5555556,3 C16.0101544,3 18,4.95875422 18,7.375 C18,9.79124578 16.0101544,11.75 13.5555556,11.75 C13.3998221,11.75 13.2459594,11.7421153 13.0943571,11.7267294 L13.5041763,9.12428319 L13.5041763,9.12428319 C13.5212436,9.12475999 13.5383711,9.125 13.5555556,9.125 C14.5373951,9.125 15.3333333,8.34149831 15.3333333,7.375 C15.3333333,6.40850169 14.5373951,5.625 13.5555556,5.625 C12.6055345,5.625 11.829561,6.35854257 11.7802647,7.2816329 L11.7689103,7.35525057 L11.7706706,7.35598755 L11.6626387,8.04427012 L11.1941057,11.0820386 L11.1941057,11.0820386 C11.1915915,11.0804834 11.189079,11.0789258 11.1865682,11.0773658 L10.8014865,13.5307617 L10.7958463,13.5198283 C10.376302,15.5069013 8.58750685,17 6.44444444,17 C3.98984556,17 2,15.0412458 2,12.625 C2,10.2087542 3.98984556,8.25 6.44444444,8.25 C6.60720905,8.25 6.76793012,8.25861269 6.926163,8.27540035 L6.51656937,10.876414 C6.49264632,10.8754743 6.46860165,10.875 6.44444444,10.875 C5.46260489,10.875 4.66666667,11.6585017 4.66666667,12.625 C4.66666667,13.5914983 5.46260489,14.375 6.44444444,14.375 C7.426284,14.375 8.22222222,13.5914983 8.22222222,12.625 C8.22222222,12.6234659 8.22222022,12.6219323 8.22221621,12.6203991 L8.80591411,9.01560538 L9.12992927,6.96970196 C9.14721282,6.78448653 9.17622417,6.60261275 9.2162258,6.42480658 L9.23676215,6.2951355 L9.24647784,6.29920309 Z" id="Oval-3"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-quote" viewBox="0 0 20 20">
+        <g>
+          <path d="M7.66808696,9.1640625 C8.54765217,9.7446875 8.98834783,10.5278125 8.98834783,11.511875 C8.98834783,12.496875 8.70530435,13.2715625 8.13952174,13.8359375 C7.57373913,14.4009375 6.86643478,14.683125 6.0176087,14.683125 C5.16878261,14.683125 4.45356522,14.409375 3.87226087,13.86 C3.29004348,13.311875 3,12.59375 3,11.705625 C3,10.8184375 3.28304348,9.955 3.84852174,9.1153125 L6.63056522,5 L9.50695652,5 L7.66808696,9.1640625 L7.66808696,9.1640625 Z M14.8823478,9.1640625 C15.761913,9.7446875 16.2026087,10.5278125 16.2026087,11.511875 C16.2026087,12.496875 15.9195652,13.2715625 15.3537826,13.8359375 C14.788,14.4009375 14.0806957,14.683125 13.2318696,14.683125 C12.3830435,14.683125 11.6678261,14.409375 11.0865217,13.86 C10.5043043,13.311875 10.2142609,12.59375 10.2142609,11.705625 C10.2142609,10.8184375 10.497,9.955 11.0627826,9.1153125 L13.8448261,5 L16.7212174,5 L14.8823478,9.1640625 L14.8823478,9.1640625 Z" id="Imported-Layers"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-check" viewBox="0 0 24 24">
+        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-checkbox-blank-outline" viewBox="0 0 24 24">
+        <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-checkbox-marked-circle-outline" viewBox="0 0 24 24">
+        <path d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-checkbox-marked" viewBox="0 0 24 24">
+        <path d="M10,17L5,12L6.41,10.58L10,14.17L17.59,6.58L19,8M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-chevron-down" viewBox="0 0 24 24">
+        <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-chevron-left" viewBox="0 0 24 24">
+        <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-chevron-right" viewBox="0 0 24 24">
+        <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-chevron-up" viewBox="0 0 24 24">
+        <path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-close" viewBox="0 0 24 24">
+        <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-filter" viewBox="0 0 24 24">
+        <path d="M3,2H21V2H21V4H20.92L14,10.92V22.91L10,18.91V10.91L3.09,4H3V2Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-ghq-back" viewBox="0 0 24 24">
+        <g>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   16,1 5,12 16,23  "></polyline>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-comment" viewBox="0 0 24 24">
+        <g>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M17,17h2l0,0h0c2.2,0,4-1.8,4-4V6c0-2.2-1.8-4-4-4H5C2.8,2,1,3.8,1,6V13c0,2.2,1.8,4,4,4h6l5,5"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-copy" viewBox="0 0 24 24">
+        <g>
+          <rect x="1" y="5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="14" height="18"></rect>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   19,19 23,19 23,1 9,1 9,5  "></polyline>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-edit" viewBox="0 0 24 24">
+        <g>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   14,3 12,1 12,1 1,1 1,23 20,23 20,12  "></polyline>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   23,4 9,18 6,18 6,15 20,1  "></polyline>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-gotoapp" viewBox="0 0 24 24">
+        <g>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   14,21 14,16 17,16 12,11 7,16 10,16 10,23 1,23 1,6 1,1 23,1 23,4 23,6 1,6  "></polyline>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   17,23 23,23 23,10  "></polyline>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-graph" viewBox="0 0 24 24">
+        <g>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   23,5 23,23 3,23  "></polyline>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M21,1H1v18c0,0,4.1-8.1,9-4.1C15,19,20,12,20,6"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-info" viewBox="0 0 24 24">
+        <g>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M14.1,13.8"></path>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   12,17 12,11 11,11  "></polyline>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="12" cy="12" r="11"></circle>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12" y1="7" x2="12" y2="6"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14" y1="17" x2="10" y2="17"></line>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-link" viewBox="0 0 24 24">
+        <g>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M11.3,7.4c3.3,0.6,5.6,3.6,5.4,7.2c-0.3,4.3-4,8.1-8.4,8.4S0.7,20,1,15.7c0.2-2.3,1.3-4.5,3-6.1"></path>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M12.7,16.6C9.3,15.9,7,13,7.3,9.4c0.3-4.3,4-8.1,8.4-8.4s7.6,3,7.3,7.3c-0.2,2.3-1.3,4.5-3,6.1"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-more" viewBox="0 0 24 24">
+        <g>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="20" cy="12" r="2.5"></circle>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="12" cy="12" r="2.5"></circle>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="4" cy="12" r="2.5"></circle>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-plus-circle" viewBox="0 0 24 24">
+        <g>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="12" cy="12" r="11"></circle>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12" y1="17" x2="12" y2="7"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="7" y1="12" x2="17" y2="12"></line>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-plus" viewBox="0 0 24 24">
+        <g>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12" y1="2" x2="12" y2="22"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="22" y1="12" x2="2" y2="12"></line>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-predict" viewBox="0 0 24 24">
+        <g>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M9,18c-1-3-8-4-8,0c0,4.1,8,5,11,5s11-1,11-5c0-2-2.6-4-6-2.4c-0.6,0.3-1.7,1-2,1.6c-0.7,1.2,0.3,2.2,1.2,2.2   c2.3,0,2.3-3.6,1.8-5.5c-0.6-2-1.7-3.1-3-4"></path>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M7,13c0,0,1-4,5-5c1.7-0.4,3-1.7,3-3.5c0-1.5-1-3-3-3C9.7,1.5,8.2,4.1,9.4,6"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-settings" viewBox="0 0 24 24">
+        <g>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11" y1="4" x2="22" y2="4"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2" y1="4" x2="4" y2="4"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="19" y1="12" x2="22" y2="12"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2" y1="12" x2="12" y2="12"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14" y1="20" x2="22" y2="20"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2" y1="20" x2="7" y2="20"></line>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="17" cy="12" r="2"></circle>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="9" cy="4" r="2"></circle>
+          <circle stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="12" cy="20" r="2"></circle>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-share" viewBox="0 0 24 24">
+        <g>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   15,10 10,15.1 1,13 23,1 19,22 13,18 9,22 7,18  "></polyline>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-signout" viewBox="0 0 24 24">
+        <g>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   11,5 11,1 1,1 1,23 11,23 11,19  "></polyline>
+          <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   6,9 16,9 16,5 23,12 16,19 16,15 8,15  "></polyline>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-task" viewBox="0 0 24 24">
+        <g>
+          <g>
+            <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M16.6,2c-1.4-0.6-3-1-4.6-1C5.9,1,1,5.9,1,12s4.9,11,11,11s11-4.9,11-11c0-1.5-0.3-2.9-0.8-4.1"></path>
+            <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    23,1 11.5,12.5 8.5,9.5 5.5,12.5 11.5,18.5 22.2,7.9   "></polyline>
+          </g>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-team" viewBox="0 0 24 24">
+        <g>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M13,20c0,0,10,0,10,0c0-5.5-2.9-6.4-5-7.3c-1.2-0.5-2.5-1-3.3-2.2c-0.5-0.7-0.8-1.6-0.8-2.6C13.9,5.8,15.3,4,17,4s3.1,1.7,3.1,3.9   c0,0.8-0.2,1.6-0.6,2.2"></path>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M3,13.9C2,14.9,1,17,1,20h12c0-6-2.9-6.4-5-7.3c-1.2-0.5-2.5-1-3.3-2.2C4.2,9.8,3.9,8.9,3.9,7.9C3.9,5.8,5.3,4,7,4s3.1,1.7,3.1,3.9   c0,0.8-0.2,1.6-0.6,2.2"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-trash" viewBox="0 0 24 24">
+        <g>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="9" y1="11" x2="9" y2="18"></line>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15" y1="11" x2="15" y2="18"></line>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M20.8,10l-0.7,11.1c-0.1,1.1-0.9,1.9-2,1.9H5.9c-1.1,0-1.9-0.8-2-1.9L3,6h18"></path>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M8.7,1h6.7c1,0,1.8,0.7,2,1.6L18,6H6l0.7-3.4C6.9,1.7,7.7,1,8.7,1z"></path>
+          <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1" y1="6" x2="23" y2="6"></line>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-ghq-user" viewBox="0 0 24 24">
+        <g>
+          <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M7.5,13.5C5.6,14.4,2,18,2,23c20.2,0,17.1,0,20,0c0-3.6-2.2-7.8-5.5-9.5c-2.7-1.4-6.1-1.3-8-4c-0.7-0.9-1-1.7-1-3C7.5,3.7,9,1,12,1   c3.1,0,4.5,2.7,4.5,5.5c0,1.3-0.3,2.1-1,3"></path>
+        </g>
+      </symbol>
+      <symbol id="ghq-svg-google-drive" viewBox="0 0 24 24">
+        <path d="M7.71,3.5L1.15,15L4.58,21L11.13,9.5M9.73,15L6.3,21H19.42L22.85,15M22.28,14L15.42,2H8.58L8.57,2L15.43,14H22.28Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-group" viewBox="0 0 24 24">
+        <path d="M16,13C15.71,13 15.38,13 15.03,13.05C16.19,13.89 17,15 17,16.5V19H23V16.5C23,14.17 18.33,13 16,13M8,13C5.67,13 1,14.17 1,16.5V19H15V16.5C15,14.17 10.33,13 8,13M8,11A3,3 0 0,0 11,8A3,3 0 0,0 8,5A3,3 0 0,0 5,8A3,3 0 0,0 8,11M16,11A3,3 0 0,0 19,8A3,3 0 0,0 16,5A3,3 0 0,0 13,8A3,3 0 0,0 16,11Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-link" viewBox="0 0 24 24">
+        <path d="M16,6H13V7.9H16C18.26,7.9 20.1,9.73 20.1,12A4.1,4.1 0 0,1 16,16.1H13V18H16A6,6 0 0,0 22,12C22,8.68 19.31,6 16,6M3.9,12C3.9,9.73 5.74,7.9 8,7.9H11V6H8A6,6 0 0,0 2,12A6,6 0 0,0 8,18H11V16.1H8C5.74,16.1 3.9,14.26 3.9,12M8,13H16V11H8V13Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-share-variant" viewBox="0 0 24 24">
+        <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z"></path>
+      </symbol>
+      <symbol id="ghq-svg-g-white" viewBox="-101.7 127.5 171.2 161.2">
+        <g>
+          <g>
+            <path fill="#FFFFFF" d="M34.1,232.3c-0.1,0.8-0.2,1.6-0.5,2.5c-1,4.2-3.1,8.6-6,12.8c-2.4,3.5-5.9,7-10.7,10.8    c-4,3.2-8.4,5.8-13.1,7.9c-4.7,2.1-9.7,3.7-14.8,4.6c-3.5,0.6-7.2,0.9-10.8,0.9c-34.8,0-63.1-28.6-63.1-63.8s28.3-63.8,63.1-63.8    c18.7,0,36.3,8.3,48.4,22.9c3,3.6,8.2,4.1,11.8,1.1s4.1-8.2,1.1-11.8C24.3,138,1.9,127.5-21.8,127.5c-44,0-79.9,36.1-79.9,80.6    c0,44.4,35.8,80.6,79.9,80.6c4.6,0,9.2-0.4,13.7-1.2c6.5-1.1,12.8-3.1,18.9-5.8c5.9-2.6,11.4-6,16.5-10    c6.1-4.8,10.7-9.6,14.1-14.5c4-5.8,6.9-12.1,8.4-18.2c1.3-5.2,1.5-10.1,0.6-14.8C46,226.8,36.9,231,34.1,232.3"></path>
+            <path fill="#FFFFFF" d="M67,191c-3.3-3.3-8.6-3.2-11.9,0.1c-5.3,5.4-10.9,9.9-16.7,13.5c-2.4-1.8-5-3.5-8-4.9    c-4.5-2.2-9.6-3.9-15.2-5c-5.3-1-10.9-1.6-16.7-1.6c-8.3,0-13.4,3.2-16.3,5.8c-3.9,3.6-6.2,8.8-6.2,14.1c0,9.5,7.5,19.6,21.5,19.6    c22.1,0,43.7-7.8,60.8-21.8c3-2.5,5.9-5.1,8.6-7.9C70.3,199.5,70.3,194.2,67,191 M-2.4,215.7c-2.9,0-4.8-1.1-4.8-2.9    c0-0.5,0.1-1.1,0.8-1.7c1-0.9,2.7-1.4,4.9-1.4c4.7,0,9.2,0.4,13.4,1.3c2.5,0.5,4.9,1.1,7,1.9C12.3,214.8,5.1,215.7-2.4,215.7"></path>
+          </g>
+        </g>
+      </symbol>
+    </svg>
+  </div>
+
+      <script src="/web/20170101003241js_/http://assets.codepen.io/assets/common/stopExecutionOnTimeout-f961f59a28ef4fd551736b43f94620b5.js"></script>
+
+    <script src="/web/20170101003241js_/http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/web/20170101003241js_/http://masonry.desandro.com/masonry.pkgd.min.jss"></script>
+<script src="/web/20170101003241js_/http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/web/20170101003241js_/https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+
+       
+    
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28323072-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ 
+</body></html>
+
+
+
+
+<!--
+     FILE ARCHIVED ON 0:32:41 Jan 1, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:49:28 Feb 20, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
